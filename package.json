@@ -1,0 +1,9 @@
+{
+  "name": "egg-template",
+  "version": "1.0.0",
+  "description": "egg 模板",
+  "main": "index.js",
+  "repository": "https://github.com/Sunbridger/egg-cli-template.git",
+  "author": "Sunbridger <739272884@qq.com>",
+  "license": "MIT"
+}
