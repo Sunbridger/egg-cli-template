@@ -5,5 +5,14 @@
   "main": "index.js",
   "repository": "https://github.com/Sunbridger/egg-cli-template.git",
   "author": "Sunbridger <739272884@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "dependencies": {
+    "egg": "^2.27.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  }
 }
