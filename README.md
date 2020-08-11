@@ -1,6 +1,6 @@
 # egg cli 服务
 
-[https://eggjs.org/zh-cn/intro/quickstart.html](建议读官方文档)
+[建议读官方文档](https://eggjs.org/zh-cn/intro/quickstart.html)
 
 >推荐使用docker启动egg服务
 
