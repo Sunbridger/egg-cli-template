@@ -6,7 +6,11 @@
 
 ## 开发测试
 
-```npm run dev```
+step:
+
+1.  ```yarn```
+
+2.  ```npm run dev```
 
 ## 线上
 
