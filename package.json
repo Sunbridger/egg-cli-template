@@ -1,7 +1,6 @@
 {
-  "name": "tgc-trace-server",
+  "name": "eggcliname",
   "version": "1.0.0",
-  "description": "埋点服务",
   "private": true,
   "egg": {
     "typescript": true,
