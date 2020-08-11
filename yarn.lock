@@ -2,12 +2,30 @@
 # yarn lockfile v1
 
 
-"@babel/code-frame@^7.10.4":
+"@babel/code-frame@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/@babel/code-frame/download/@babel/code-frame-7.0.0-beta.44.tgz#2a02643368de80916162be70865c97774f3adbd9"
+  integrity sha1-KgJkM2jegJFhYr5whlyXd08629k=
+  dependencies:
+    "@babel/highlight" "7.0.0-beta.44"
+
+"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.10.4"
   resolved "http://registry.npm.souche-inc.com/@babel/code-frame/download/@babel/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
   integrity sha1-Fo2ho26Q2miujUnA8bSMfGJJITo=
   dependencies:
     "@babel/highlight" "^7.10.4"
+
+"@babel/generator@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/@babel/generator/download/@babel/generator-7.0.0-beta.44.tgz#c7e67b9b5284afcf69b309b50d7d37f3e5033d42"
+  integrity sha1-x+Z7m1KEr89pswm1DX038+UDPUI=
+  dependencies:
+    "@babel/types" "7.0.0-beta.44"
+    jsesc "^2.5.1"
+    lodash "^4.2.0"
+    source-map "^0.5.0"
+    trim-right "^1.0.1"
 
 "@babel/generator@^7.11.0", "@babel/generator@^7.4.0":
   version "7.11.0"
@@ -18,6 +36,15 @@
     jsesc "^2.5.1"
     source-map "^0.5.0"
 
+"@babel/helper-function-name@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/@babel/helper-function-name/download/@babel/helper-function-name-7.0.0-beta.44.tgz#e18552aaae2231100a6e485e03854bc3532d44dd"
+  integrity sha1-4YVSqq4iMRAKbkheA4VLw1MtRN0=
+  dependencies:
+    "@babel/helper-get-function-arity" "7.0.0-beta.44"
+    "@babel/template" "7.0.0-beta.44"
+    "@babel/types" "7.0.0-beta.44"
+
 "@babel/helper-function-name@^7.10.4":
   version "7.10.4"
   resolved "http://registry.npm.souche-inc.com/@babel/helper-function-name/download/@babel/helper-function-name-7.10.4.tgz#d2d3b20c59ad8c47112fa7d2a94bc09d5ef82f1a"
@@ -27,12 +54,26 @@
     "@babel/template" "^7.10.4"
     "@babel/types" "^7.10.4"
 
+"@babel/helper-get-function-arity@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/@babel/helper-get-function-arity/download/@babel/helper-get-function-arity-7.0.0-beta.44.tgz#d03ca6dd2b9f7b0b1e6b32c56c72836140db3a15"
+  integrity sha1-0Dym3SufewseazLFbHKDYUDbOhU=
+  dependencies:
+    "@babel/types" "7.0.0-beta.44"
+
 "@babel/helper-get-function-arity@^7.10.4":
   version "7.10.4"
   resolved "http://registry.npm.souche-inc.com/@babel/helper-get-function-arity/download/@babel/helper-get-function-arity-7.10.4.tgz#98c1cbea0e2332f33f9a4661b8ce1505b2c19ba2"
   integrity sha1-mMHL6g4jMvM/mkZhuM4VBbLBm6I=
   dependencies:
     "@babel/types" "^7.10.4"
+
+"@babel/helper-split-export-declaration@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/@babel/helper-split-export-declaration/download/@babel/helper-split-export-declaration-7.0.0-beta.44.tgz#c0b351735e0fbcb3822c8ad8db4e583b05ebd9dc"
+  integrity sha1-wLNRc14PvLOCLIrY205YOwXr2dw=
+  dependencies:
+    "@babel/types" "7.0.0-beta.44"
 
 "@babel/helper-split-export-declaration@^7.11.0":
   version "7.11.0"
@@ -46,6 +87,15 @@
   resolved "http://registry.npm.souche-inc.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.10.4.tgz#a78c7a7251e01f616512d31b10adcf52ada5e0d2"
   integrity sha1-p4x6clHgH2FlEtMbEK3PUq2l4NI=
 
+"@babel/highlight@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/@babel/highlight/download/@babel/highlight-7.0.0-beta.44.tgz#18c94ce543916a80553edcdcf681890b200747d5"
+  integrity sha1-GMlM5UORaoBVPtzc9oGJCyAHR9U=
+  dependencies:
+    chalk "^2.0.0"
+    esutils "^2.0.2"
+    js-tokens "^3.0.0"
+
 "@babel/highlight@^7.10.4":
   version "7.10.4"
   resolved "http://registry.npm.souche-inc.com/@babel/highlight/download/@babel/highlight-7.10.4.tgz#7d1bdfd65753538fabe6c38596cdb76d9ac60143"
@@ -56,9 +106,34 @@
     js-tokens "^4.0.0"
 
 "@babel/parser@^7.10.4", "@babel/parser@^7.11.0", "@babel/parser@^7.4.3":
+  version "7.11.3"
+  resolved "http://registry.npm.souche-inc.com/@babel/parser/download/@babel/parser-7.11.3.tgz#9e1eae46738bcd08e23e867bab43e7b95299a8f9"
+  integrity sha1-nh6uRnOLzQjiPoZ7q0PnuVKZqPk=
+
+"@babel/runtime-corejs3@^7.10.2":
   version "7.11.2"
-  resolved "http://registry.npm.souche-inc.com/@babel/parser/download/@babel/parser-7.11.2.tgz#0882ab8a455df3065ea2dcb4c753b2460a24bead"
-  integrity sha1-CIKrikVd8wZeoty0x1OyRgokvq0=
+  resolved "http://registry.npm.souche-inc.com/@babel/runtime-corejs3/download/@babel/runtime-corejs3-7.11.2.tgz#02c3029743150188edeb66541195f54600278419"
+  integrity sha1-AsMCl0MVAYjt62ZUEZX1RgAnhBk=
+  dependencies:
+    core-js-pure "^3.0.0"
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.10.2":
+  version "7.11.2"
+  resolved "http://registry.npm.souche-inc.com/@babel/runtime/download/@babel/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  integrity sha1-9UnBPHVMxAuHZEufqfCaapX+BzY=
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/template@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/@babel/template/download/@babel/template-7.0.0-beta.44.tgz#f8832f4fdcee5d59bf515e595fc5106c529b394f"
+  integrity sha1-+IMvT9zuXVm/UV5ZX8UQbFKbOU8=
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.44"
+    "@babel/types" "7.0.0-beta.44"
+    babylon "7.0.0-beta.44"
+    lodash "^4.2.0"
 
 "@babel/template@^7.10.4", "@babel/template@^7.4.0":
   version "7.10.4"
@@ -68,6 +143,22 @@
     "@babel/code-frame" "^7.10.4"
     "@babel/parser" "^7.10.4"
     "@babel/types" "^7.10.4"
+
+"@babel/traverse@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/@babel/traverse/download/@babel/traverse-7.0.0-beta.44.tgz#a970a2c45477ad18017e2e465a0606feee0d2966"
+  integrity sha1-qXCixFR3rRgBfi5GWgYG/u4NKWY=
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.44"
+    "@babel/generator" "7.0.0-beta.44"
+    "@babel/helper-function-name" "7.0.0-beta.44"
+    "@babel/helper-split-export-declaration" "7.0.0-beta.44"
+    "@babel/types" "7.0.0-beta.44"
+    babylon "7.0.0-beta.44"
+    debug "^3.1.0"
+    globals "^11.1.0"
+    invariant "^2.2.0"
+    lodash "^4.2.0"
 
 "@babel/traverse@^7.4.3":
   version "7.11.0"
@@ -83,6 +174,15 @@
     debug "^4.1.0"
     globals "^11.1.0"
     lodash "^4.17.19"
+
+"@babel/types@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/@babel/types/download/@babel/types-7.0.0-beta.44.tgz#6b1b164591f77dec0a0342aca995f2d046b3a757"
+  integrity sha1-axsWRZH3fewKA0KsqZXy0Eazp1c=
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.2.0"
+    to-fast-properties "^2.0.0"
 
 "@babel/types@^7.10.4", "@babel/types@^7.11.0", "@babel/types@^7.4.0":
   version "7.11.0"
@@ -139,6 +239,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/bluebird@*":
+  version "3.5.32"
+  resolved "http://registry.npm.souche-inc.com/@types/bluebird/download/@types/bluebird-3.5.32.tgz#381e7b59e39f010d20bbf7e044e48f5caf1ab620"
+  integrity sha1-OB57WeOfAQ0gu/fgROSPXK8atiA=
+
 "@types/body-parser@*":
   version "1.19.0"
   resolved "http://registry.npm.souche-inc.com/@types/body-parser/download/@types/body-parser-1.19.0.tgz#0685b3c47eb3006ffed117cdd55164b61f80538f"
@@ -146,6 +251,11 @@
   dependencies:
     "@types/connect" "*"
     "@types/node" "*"
+
+"@types/color-name@^1.1.1":
+  version "1.1.1"
+  resolved "http://registry.npm.souche-inc.com/@types/color-name/download/@types/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
+  integrity sha1-HBJhu+qhCoBVu8XYq4S3sq/IRqA=
 
 "@types/connect@*":
   version "3.4.33"
@@ -158,6 +268,18 @@
   version "0.5.3"
   resolved "http://registry.npm.souche-inc.com/@types/content-disposition/download/@types/content-disposition-0.5.3.tgz#0aa116701955c2faa0717fc69cd1596095e49d96"
   integrity sha1-CqEWcBlVwvqgcX/GnNFZYJXknZY=
+
+"@types/continuation-local-storage@*":
+  version "3.2.2"
+  resolved "http://registry.npm.souche-inc.com/@types/continuation-local-storage/download/@types/continuation-local-storage-3.2.2.tgz#7cbf177a6206ece87bc4b808784772ad2aa5f6db"
+  integrity sha1-fL8XemIG7Oh7xLgIeEdyrSql9ts=
+  dependencies:
+    "@types/node" "*"
+
+"@types/cookiejar@*":
+  version "2.1.1"
+  resolved "http://registry.npm.souche-inc.com/@types/cookiejar/download/@types/cookiejar-2.1.1.tgz#90b68446364baf9efd8e8349bb36bd3852b75b80"
+  integrity sha1-kLaERjZLr579joNJuza9OFK3W4A=
 
 "@types/cookies@*":
   version "0.7.4"
@@ -180,6 +302,16 @@
   integrity sha1-eTf2aHDQzXqYgRUuTrAsjEMpjxE=
   dependencies:
     "@types/node" "*"
+
+"@types/empower@*":
+  version "1.2.30"
+  resolved "http://registry.npm.souche-inc.com/@types/empower/download/@types/empower-1.2.30.tgz#c7cfc14b3a61e54c74c674c1fbc91ba2df0d1392"
+  integrity sha1-x8/BSzph5Ux0xnTB+8kbot8NE5I=
+
+"@types/eslint-visitor-keys@^1.0.0":
+  version "1.0.0"
+  resolved "http://registry.npm.souche-inc.com/@types/eslint-visitor-keys/download/@types/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
+  integrity sha1-HuMNeVRMqE1o1LPNsK9PIFZj3S0=
 
 "@types/express-serve-static-core@*":
   version "4.17.9"
@@ -233,6 +365,16 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
+"@types/json-schema@^7.0.3":
+  version "7.0.5"
+  resolved "http://registry.npm.souche-inc.com/@types/json-schema/download/@types/json-schema-7.0.5.tgz#dcce4430e64b443ba8945f0290fb564ad5bac6dd"
+  integrity sha1-3M5EMOZLRDuolF8CkPtWStW6xt0=
+
+"@types/json5@^0.0.29":
+  version "0.0.29"
+  resolved "http://registry.npm.souche-inc.com/@types/json5/download/@types/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
+  integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
+
 "@types/keygrip@*":
   version "1.0.2"
   resolved "http://registry.npm.souche-inc.com/@types/keygrip/download/@types/keygrip-1.0.2.tgz#513abfd256d7ad0bf1ee1873606317b33b1b2a72"
@@ -265,6 +407,11 @@
     "@types/koa-compose" "*"
     "@types/node" "*"
 
+"@types/lodash@*":
+  version "4.14.159"
+  resolved "http://registry.npm.souche-inc.com/@types/lodash/download/@types/lodash-4.14.159.tgz#61089719dc6fdd9c5cb46efc827f2571d1517065"
+  integrity sha1-YQiXGdxv3ZxctG78gn8lcdFRcGU=
+
 "@types/mime@*":
   version "2.0.3"
   resolved "http://registry.npm.souche-inc.com/@types/mime/download/@types/mime-2.0.3.tgz#c893b73721db73699943bfc3653b1deb7faa4a3a"
@@ -274,6 +421,11 @@
   version "3.0.3"
   resolved "http://registry.npm.souche-inc.com/@types/minimatch/download/@types/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha1-PcoOPzOyAPx9ETnAzZbBJoyt/Z0=
+
+"@types/mocha@^2.2.40":
+  version "2.2.48"
+  resolved "http://registry.npm.souche-inc.com/@types/mocha/download/@types/mocha-2.2.48.tgz#3523b126a0b049482e1c3c11877460f76622ffab"
+  integrity sha1-NSOxJqCwSUguHDwRh3Rg92Yi/6s=
 
 "@types/node@*":
   version "14.0.27"
@@ -285,6 +437,24 @@
   resolved "http://registry.npm.souche-inc.com/@types/node/download/@types/node-10.17.28.tgz#0e36d718a29355ee51cec83b42d921299200f6d9"
   integrity sha1-DjbXGKKTVe5Rzsg7QtkhKZIA9tk=
 
+"@types/node@^7.0.12":
+  version "7.10.11"
+  resolved "http://registry.npm.souche-inc.com/@types/node/download/@types/node-7.10.11.tgz#2e533ffcc777d2a6ee8d00b6f82e0cdd3c3781e1"
+  integrity sha1-LlM//Md30qbujQC2+C4M3Tw3geE=
+
+"@types/power-assert-formatter@*":
+  version "1.4.29"
+  resolved "http://registry.npm.souche-inc.com/@types/power-assert-formatter/download/@types/power-assert-formatter-1.4.29.tgz#d423428085cb2a16c6a1c8b96e4b0bed22936aa8"
+  integrity sha1-1CNCgIXLKhbGoci5bksL7SKTaqg=
+
+"@types/power-assert@^1.5.0":
+  version "1.5.3"
+  resolved "http://registry.npm.souche-inc.com/@types/power-assert/download/@types/power-assert-1.5.3.tgz#9e415f8d5703375c3d5d7bf912ca7ac334faf0c6"
+  integrity sha1-nkFfjVcDN1w9XXv5Esp6wzT68MY=
+  dependencies:
+    "@types/empower" "*"
+    "@types/power-assert-formatter" "*"
+
 "@types/qs@*":
   version "6.9.4"
   resolved "http://registry.npm.souche-inc.com/@types/qs/download/@types/qs-6.9.4.tgz#a59e851c1ba16c0513ea123830dd639a0a15cb6a"
@@ -295,6 +465,16 @@
   resolved "http://registry.npm.souche-inc.com/@types/range-parser/download/@types/range-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
   integrity sha1-fuMwunyq+5gJC+zoal7kQRWQTCw=
 
+"@types/sequelize@^4.27.24":
+  version "4.28.9"
+  resolved "http://registry.npm.souche-inc.com/@types/sequelize/download/@types/sequelize-4.28.9.tgz#64d0fad07de2f30ef11003a8c2ef5ac0321de115"
+  integrity sha1-ZND60H3i8w7xEAOowu9awDId4RU=
+  dependencies:
+    "@types/bluebird" "*"
+    "@types/continuation-local-storage" "*"
+    "@types/lodash" "*"
+    "@types/validator" "*"
+
 "@types/serve-static@*":
   version "1.13.5"
   resolved "http://registry.npm.souche-inc.com/@types/serve-static/download/@types/serve-static-1.13.5.tgz#3d25d941a18415d3ab092def846e135a08bbcf53"
@@ -302,6 +482,26 @@
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
+
+"@types/superagent@*":
+  version "4.1.9"
+  resolved "http://registry.npm.souche-inc.com/@types/superagent/download/@types/superagent-4.1.9.tgz#d899d3bc90b17eb298cac18b7aa22f7c3ec88c13"
+  integrity sha1-2JnTvJCxfrKYysGLeqIvfD7IjBM=
+  dependencies:
+    "@types/cookiejar" "*"
+    "@types/node" "*"
+
+"@types/supertest@^2.0.0", "@types/supertest@^2.0.7":
+  version "2.0.10"
+  resolved "http://registry.npm.souche-inc.com/@types/supertest/download/@types/supertest-2.0.10.tgz#630d79b4d82c73e043e43ff777a9ca98d457cab7"
+  integrity sha1-Yw15tNgsc+BD5D/3d6nKmNRXyrc=
+  dependencies:
+    "@types/superagent" "*"
+
+"@types/validator@*":
+  version "13.1.0"
+  resolved "http://registry.npm.souche-inc.com/@types/validator/download/@types/validator-13.1.0.tgz#3d776127dbce7dd31fc06f86d3428b072e631eba"
+  integrity sha1-PXdhJ9vOfdMfwG+G00KLBy5jHro=
 
 "@types/yargs-parser@*":
   version "15.0.0"
@@ -320,6 +520,54 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@typescript-eslint/eslint-plugin@^2.0.0":
+  version "2.34.0"
+  resolved "http://registry.npm.souche-inc.com/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-2.34.0.tgz#6f8ce8a46c7dea4a6f1d171d2bb8fbae6dac2be9"
+  integrity sha1-b4zopGx96kpvHRcdK7j7rm2sK+k=
+  dependencies:
+    "@typescript-eslint/experimental-utils" "2.34.0"
+    functional-red-black-tree "^1.0.1"
+    regexpp "^3.0.0"
+    tsutils "^3.17.1"
+
+"@typescript-eslint/experimental-utils@2.34.0":
+  version "2.34.0"
+  resolved "http://registry.npm.souche-inc.com/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-2.34.0.tgz#d3524b644cdb40eebceca67f8cf3e4cc9c8f980f"
+  integrity sha1-01JLZEzbQO687KZ/jPPkzJyPmA8=
+  dependencies:
+    "@types/json-schema" "^7.0.3"
+    "@typescript-eslint/typescript-estree" "2.34.0"
+    eslint-scope "^5.0.0"
+    eslint-utils "^2.0.0"
+
+"@typescript-eslint/parser@^2.0.0":
+  version "2.34.0"
+  resolved "http://registry.npm.souche-inc.com/@typescript-eslint/parser/download/@typescript-eslint/parser-2.34.0.tgz#50252630ca319685420e9a39ca05fe185a256bc8"
+  integrity sha1-UCUmMMoxloVCDpo5ygX+GFola8g=
+  dependencies:
+    "@types/eslint-visitor-keys" "^1.0.0"
+    "@typescript-eslint/experimental-utils" "2.34.0"
+    "@typescript-eslint/typescript-estree" "2.34.0"
+    eslint-visitor-keys "^1.1.0"
+
+"@typescript-eslint/typescript-estree@2.34.0":
+  version "2.34.0"
+  resolved "http://registry.npm.souche-inc.com/@typescript-eslint/typescript-estree/download/@typescript-eslint/typescript-estree-2.34.0.tgz#14aeb6353b39ef0732cc7f1b8285294937cf37d5"
+  integrity sha1-FK62NTs57wcyzH8bgoUpSTfPN9U=
+  dependencies:
+    debug "^4.1.1"
+    eslint-visitor-keys "^1.1.0"
+    glob "^7.1.6"
+    is-glob "^4.0.1"
+    lodash "^4.17.15"
+    semver "^7.3.2"
+    tsutils "^3.17.1"
+
+a-sync-waterfall@^1.0.0:
+  version "1.0.1"
+  resolved "http://registry.npm.souche-inc.com/a-sync-waterfall/download/a-sync-waterfall-1.0.1.tgz#75b6b6aa72598b497a125e7a2770f14f4c8a1fa7"
+  integrity sha1-dba2qnJZi0l6El56J3DxT0yKH6c=
+
 accepts@^1.3.5:
   version "1.3.7"
   resolved "http://registry.npm.souche-inc.com/accepts/download/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"
@@ -333,10 +581,20 @@ acorn-es7-plugin@^1.0.10, acorn-es7-plugin@^1.0.12:
   resolved "http://registry.npm.souche-inc.com/acorn-es7-plugin/download/acorn-es7-plugin-1.1.7.tgz#f2ee1f3228a90eead1245f9ab1922eb2e71d336b"
   integrity sha1-8u4fMiipDurRJF+asZIusucdM2s=
 
+acorn-jsx@^5.2.0:
+  version "5.2.0"
+  resolved "http://registry.npm.souche-inc.com/acorn-jsx/download/acorn-jsx-5.2.0.tgz#4c66069173d6fdd68ed85239fc256226182b2ebe"
+  integrity sha1-TGYGkXPW/daO2FI5/CViJhgrLr4=
+
 acorn@^5.0.0:
   version "5.7.4"
   resolved "http://registry.npm.souche-inc.com/acorn/download/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
   integrity sha1-Po2KmUfQWZoXltECJddDL0pKz14=
+
+acorn@^7.1.1:
+  version "7.4.0"
+  resolved "http://registry.npm.souche-inc.com/acorn/download/acorn-7.4.0.tgz#e1ad486e6c54501634c6c397c5c121daa383607c"
+  integrity sha1-4a1IbmxUUBY0xsOXxcEh2qODYHw=
 
 address@>=0.0.1, address@^1.0.1:
   version "1.1.2"
@@ -366,6 +624,16 @@ agentkeepalive@^4.0.2:
     depd "^1.1.2"
     humanize-ms "^1.2.1"
 
+ajv@^6.10.0, ajv@^6.10.2:
+  version "6.12.3"
+  resolved "http://registry.npm.souche-inc.com/ajv/download/ajv-6.12.3.tgz#18c5af38a111ddeb4f2697bd78d68abc1cabd706"
+  integrity sha1-GMWvOKER3etPJpe9eNaKvByr1wY=
+  dependencies:
+    fast-deep-equal "^3.1.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "http://registry.npm.souche-inc.com/amdefine/download/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
@@ -380,6 +648,13 @@ ansi-colors@^4.1.1:
   version "4.1.1"
   resolved "http://registry.npm.souche-inc.com/ansi-colors/download/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
   integrity sha1-y7muJWv3UK8eqzRPIpqif+lLo0g=
+
+ansi-escapes@^4.2.1:
+  version "4.3.1"
+  resolved "http://registry.npm.souche-inc.com/ansi-escapes/download/ansi-escapes-4.3.1.tgz#a5c47cc43181f1f38ffd7076837700d395522a61"
+  integrity sha1-pcR8xDGB8fOP/XB2g3cA05VSKmE=
+  dependencies:
+    type-fest "^0.11.0"
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -396,6 +671,11 @@ ansi-regex@^4.1.0:
   resolved "http://registry.npm.souche-inc.com/ansi-regex/download/ansi-regex-4.1.0.tgz#8b9f8f08cf1acb843756a839ca8c7e3168c51997"
   integrity sha1-i5+PCM8ay4Q3Vqg5yox+MWjFGZc=
 
+ansi-regex@^5.0.0:
+  version "5.0.0"
+  resolved "http://registry.npm.souche-inc.com/ansi-regex/download/ansi-regex-5.0.0.tgz#388539f55179bf39339c81af30a654d69f87cb75"
+  integrity sha1-OIU59VF5vzkznIGvMKZU1p+Hy3U=
+
 ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "http://registry.npm.souche-inc.com/ansi-styles/download/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
@@ -407,6 +687,19 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   integrity sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
   dependencies:
     color-convert "^1.9.0"
+
+ansi-styles@^4.1.0:
+  version "4.2.1"
+  resolved "http://registry.npm.souche-inc.com/ansi-styles/download/ansi-styles-4.2.1.tgz#90ae75c424d008d2624c5bf29ead3177ebfcf359"
+  integrity sha1-kK51xCTQCNJiTFvynq0xd+v881k=
+  dependencies:
+    "@types/color-name" "^1.1.1"
+    color-convert "^2.0.1"
+
+ansicolors@~0.3.2:
+  version "0.3.2"
+  resolved "http://registry.npm.souche-inc.com/ansicolors/download/ansicolors-0.3.2.tgz#665597de86a9ffe3aa9bfbe6cae5c6ea426b4979"
+  integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
 any-promise@^1.0.0, any-promise@^1.1.0, any-promise@^1.3.0:
   version "1.3.0"
@@ -420,6 +713,14 @@ anymatch@^2.0.0:
   dependencies:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
+
+anymatch@~3.1.1:
+  version "3.1.1"
+  resolved "http://registry.npm.souche-inc.com/anymatch/download/anymatch-3.1.1.tgz#c55ecf02185e2469259399310c173ce31233b142"
+  integrity sha1-xV7PAhheJGklk5kxDBc84xIzsUI=
+  dependencies:
+    normalize-path "^3.0.0"
+    picomatch "^2.0.4"
 
 append-transform@^1.0.0:
   version "1.0.0"
@@ -439,6 +740,14 @@ argparse@^1.0.7:
   integrity sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE=
   dependencies:
     sprintf-js "~1.0.2"
+
+aria-query@^4.2.2:
+  version "4.2.2"
+  resolved "http://registry.npm.souche-inc.com/aria-query/download/aria-query-4.2.2.tgz#0d2ca6c9aceb56b8977e9fed6aed7e15bbd2f83b"
+  integrity sha1-DSymyazrVriXfp/tau1+FbvS+Ds=
+  dependencies:
+    "@babel/runtime" "^7.10.2"
+    "@babel/runtime-corejs3" "^7.10.2"
 
 arr-diff@^4.0.0:
   version "4.0.0"
@@ -470,6 +779,15 @@ array-find@^1.0.0:
   resolved "http://registry.npm.souche-inc.com/array-find/download/array-find-1.0.0.tgz#6c8e286d11ed768327f8e62ecee87353ca3e78b8"
   integrity sha1-bI4obRHtdoMn+OYuzuhzU8o+eLg=
 
+array-includes@^3.1.1:
+  version "3.1.1"
+  resolved "http://registry.npm.souche-inc.com/array-includes/download/array-includes-3.1.1.tgz#cdd67e6852bdf9c1215460786732255ed2459348"
+  integrity sha1-zdZ+aFK9+cEhVGB4ZzIlXtJFk0g=
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0"
+    is-string "^1.0.5"
+
 array-union@^1.0.1, array-union@^1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.souche-inc.com/array-union/download/array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39"
@@ -487,32 +805,74 @@ array-unique@^0.3.2:
   resolved "http://registry.npm.souche-inc.com/array-unique/download/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
 
+array.prototype.flat@^1.2.3:
+  version "1.2.3"
+  resolved "http://registry.npm.souche-inc.com/array.prototype.flat/download/array.prototype.flat-1.2.3.tgz#0de82b426b0318dbfdb940089e38b043d37f6c7b"
+  integrity sha1-DegrQmsDGNv9uUAInjiwQ9N/bHs=
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0-next.1"
+
+array.prototype.flatmap@^1.2.3:
+  version "1.2.3"
+  resolved "http://registry.npm.souche-inc.com/array.prototype.flatmap/download/array.prototype.flatmap-1.2.3.tgz#1c13f84a178566042dd63de4414440db9222e443"
+  integrity sha1-HBP4SheFZgQt1j3kQURA25Ii5EM=
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0-next.1"
+    function-bind "^1.1.1"
+
 arrify@^1.0.0, arrify@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.souche-inc.com/arrify/download/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
+
+asap@^2.0.3:
+  version "2.0.6"
+  resolved "http://registry.npm.souche-inc.com/asap/download/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
+  integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
 assign-symbols@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.souche-inc.com/assign-symbols/download/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
   integrity sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c=
 
+ast-types-flow@^0.0.7:
+  version "0.0.7"
+  resolved "http://registry.npm.souche-inc.com/ast-types-flow/download/ast-types-flow-0.0.7.tgz#f70b735c6bca1a5c9c22d982c3e39e7feba3bdad"
+  integrity sha1-9wtzXGvKGlycItmCw+Oef+ujva0=
+
 ast-types@0.x.x:
   version "0.13.3"
   resolved "http://registry.npm.souche-inc.com/ast-types/download/ast-types-0.13.3.tgz#50da3f28d17bdbc7969a3a2d83a0e4a72ae755a7"
   integrity sha1-UNo/KNF728eWmjotg6DkpyrnVac=
+
+astral-regex@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.souche-inc.com/astral-regex/download/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
+  integrity sha1-bIw/uCfdQ+45GPJ7gngqt2WKb9k=
 
 async-each@^1.0.1:
   version "1.0.3"
   resolved "http://registry.npm.souche-inc.com/async-each/download/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
   integrity sha1-tyfb+H12UWAvBvTUrDh/R9kbDL8=
 
+asynckit@^0.4.0:
+  version "0.4.0"
+  resolved "http://registry.npm.souche-inc.com/asynckit/download/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+  integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
+
 atob@^2.1.2:
   version "2.1.2"
   resolved "http://registry.npm.souche-inc.com/atob/download/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k=
 
-autod@^3.1.0:
+autod-egg@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.npm.souche-inc.com/autod-egg/download/autod-egg-1.1.0.tgz#bc37bb954661d88ef07e30dc83e11262bf9e30ac"
+  integrity sha1-vDe7lUZh2I7wfjDcg+ESYr+eMKw=
+
+autod@^3.0.1, autod@^3.1.0:
   version "3.1.0"
   resolved "http://registry.npm.souche-inc.com/autod/download/autod-3.1.0.tgz#5e27278b868b8a13b0a4b6f304ea50ba783f28e9"
   integrity sha1-Xicni4aLihOwpLbzBOpQung/KOk=
@@ -544,6 +904,16 @@ await-first@^1.0.0:
   integrity sha1-Bq+m23zr5BK+m+VOgt2MbLTNskE=
   dependencies:
     ee-first "^1.1.1"
+
+axe-core@^3.5.4:
+  version "3.5.5"
+  resolved "http://registry.npm.souche-inc.com/axe-core/download/axe-core-3.5.5.tgz#84315073b53fa3c0c51676c588d59da09a192227"
+  integrity sha1-hDFQc7U/o8DFFnbFiNWdoJoZIic=
+
+axobject-query@^2.1.2:
+  version "2.2.0"
+  resolved "http://registry.npm.souche-inc.com/axobject-query/download/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
+  integrity sha1-lD1H4QwLcEqkInXiDt83ImSJib4=
 
 babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -578,6 +948,18 @@ babel-core@^6.26.0:
     private "^0.1.8"
     slash "^1.0.0"
     source-map "^0.5.7"
+
+babel-eslint@^8.2.6:
+  version "8.2.6"
+  resolved "http://registry.npm.souche-inc.com/babel-eslint/download/babel-eslint-8.2.6.tgz#6270d0c73205628067c0f7ae1693a9e797acefd9"
+  integrity sha1-YnDQxzIFYoBnwPeuFpOp55es79k=
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.44"
+    "@babel/traverse" "7.0.0-beta.44"
+    "@babel/types" "7.0.0-beta.44"
+    babylon "7.0.0-beta.44"
+    eslint-scope "3.7.1"
+    eslint-visitor-keys "^1.0.0"
 
 babel-generator@^6.26.0:
   version "6.26.1"
@@ -1303,6 +1685,11 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
 
+babylon@7.0.0-beta.44:
+  version "7.0.0-beta.44"
+  resolved "http://registry.npm.souche-inc.com/babylon/download/babylon-7.0.0-beta.44.tgz#89159e15e6e30c5096e22d738d8c0af8a0e8ca1d"
+  integrity sha1-iRWeFebjDFCW4i1zjYwK+KDoyh0=
+
 babylon@^6.18.0:
   version "6.18.0"
   resolved "http://registry.npm.souche-inc.com/babylon/download/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
@@ -1336,6 +1723,11 @@ binary-extensions@^1.0.0:
   resolved "http://registry.npm.souche-inc.com/binary-extensions/download/binary-extensions-1.13.1.tgz#598afe54755b2868a5330d2aff9d4ebb53209b65"
   integrity sha1-WYr+VHVbKGilMw0q/51Ou1Mgm2U=
 
+binary-extensions@^2.0.0:
+  version "2.1.0"
+  resolved "http://registry.npm.souche-inc.com/binary-extensions/download/binary-extensions-2.1.0.tgz#30fa40c9e7fe07dbc895678cd287024dea241dd9"
+  integrity sha1-MPpAyef+B9vIlWeM0ocCTeokHdk=
+
 bindings@^1.5.0:
   version "1.5.0"
   resolved "http://registry.npm.souche-inc.com/bindings/download/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"
@@ -1347,6 +1739,11 @@ black-hole-stream@~0.0.1:
   version "0.0.1"
   resolved "http://registry.npm.souche-inc.com/black-hole-stream/download/black-hole-stream-0.0.1.tgz#33b7a06b9f1e7453d6041b82974481d2152aea42"
   integrity sha1-M7ega58edFPWBBuCl0SB0hUq6kI=
+
+bluebird@^3.5.0:
+  version "3.7.2"
+  resolved "http://registry.npm.souche-inc.com/bluebird/download/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
+  integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -1371,6 +1768,13 @@ braces@^2.3.1, braces@^2.3.2:
     snapdragon-node "^2.0.1"
     split-string "^3.0.2"
     to-regex "^3.0.1"
+
+braces@~3.0.2:
+  version "3.0.2"
+  resolved "http://registry.npm.souche-inc.com/braces/download/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
+  integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
+  dependencies:
+    fill-range "^7.0.1"
 
 browser-stdout@1.3.1:
   version "1.3.1"
@@ -1483,6 +1887,11 @@ call-signature@0.0.2:
   resolved "http://registry.npm.souche-inc.com/call-signature/download/call-signature-0.0.2.tgz#a84abc825a55ef4cb2b028bd74e205a65b9a4996"
   integrity sha1-qEq8glpV70yysCi9dOIFpluaSZY=
 
+callsites@^3.0.0:
+  version "3.1.0"
+  resolved "http://registry.npm.souche-inc.com/callsites/download/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
+  integrity sha1-s2MKvYlDQy9Us/BRkjjjPNffL3M=
+
 camel-case@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.souche-inc.com/camel-case/download/camel-case-3.0.0.tgz#ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
@@ -1506,6 +1915,14 @@ caniuse-lite@^1.0.30000844:
   resolved "http://registry.npm.souche-inc.com/caniuse-lite/download/caniuse-lite-1.0.30001112.tgz#0fffc3b934ff56ff0548c37bc9dad7d882bcf672"
   integrity sha1-D//DuTT/Vv8FSMN7ydrX2IK89nI=
 
+cardinal@^2.1.1:
+  version "2.1.1"
+  resolved "http://registry.npm.souche-inc.com/cardinal/download/cardinal-2.1.1.tgz#7cc1055d822d212954d07b085dea251cc7bc5505"
+  integrity sha1-fMEFXYItISlU0HsIXeolHMe8VQU=
+  dependencies:
+    ansicolors "~0.3.2"
+    redeyed "~2.1.0"
+
 cfork@^1.6.1, cfork@^1.7.1:
   version "1.8.0"
   resolved "http://registry.npm.souche-inc.com/cfork/download/cfork-1.8.0.tgz#d0fde2debabbd6e0758ff33f21c2f980ccc05711"
@@ -1524,7 +1941,7 @@ chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.4.1, chalk@^2.4.2:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "http://registry.npm.souche-inc.com/chalk/download/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
@@ -1532,6 +1949,14 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.4.1, chalk@^2.4.2:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
+
+chalk@^4.1.0:
+  version "4.1.0"
+  resolved "http://registry.npm.souche-inc.com/chalk/download/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
+  integrity sha1-ThSHCmGNni7dl92DRf2dncMVZGo=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
 
 chan@^0.6.1:
   version "0.6.1"
@@ -1562,6 +1987,11 @@ change-case@^3.0.2:
     upper-case "^1.1.1"
     upper-case-first "^1.1.0"
 
+chardet@^0.7.0:
+  version "0.7.0"
+  resolved "http://registry.npm.souche-inc.com/chardet/download/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
+  integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
+
 chokidar@^2.0.1:
   version "2.1.8"
   resolved "http://registry.npm.souche-inc.com/chokidar/download/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -1581,6 +2011,21 @@ chokidar@^2.0.1:
   optionalDependencies:
     fsevents "^1.2.7"
 
+chokidar@^3.3.0:
+  version "3.4.2"
+  resolved "http://registry.npm.souche-inc.com/chokidar/download/chokidar-3.4.2.tgz#38dc8e658dec3809741eb3ef7bb0a47fe424232d"
+  integrity sha1-ONyOZY3sOAl0HrPve7Ckf+QkIy0=
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.4.0"
+  optionalDependencies:
+    fsevents "~2.1.2"
+
 circular-json-for-egg@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.souche-inc.com/circular-json-for-egg/download/circular-json-for-egg-1.0.0.tgz#eacb71b57af28b4822cabc52a5961cd2f0817fc5"
@@ -1595,6 +2040,18 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+cli-cursor@^3.1.0:
+  version "3.1.0"
+  resolved "http://registry.npm.souche-inc.com/cli-cursor/download/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
+  integrity sha1-JkMFp65JDR0Dvwybp8kl0XU68wc=
+  dependencies:
+    restore-cursor "^3.1.0"
+
+cli-width@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.souche-inc.com/cli-width/download/cli-width-3.0.0.tgz#a2f48437a2caa9a22436e794bf071ec9e61cedf6"
+  integrity sha1-ovSEN6LKqaIkNueUvwceyeYc7fY=
 
 cliui@^3.2.0:
   version "3.2.0"
@@ -1622,6 +2079,14 @@ cliui@^5.0.0:
     string-width "^3.1.0"
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
+
+cls-bluebird@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.npm.souche-inc.com/cls-bluebird/download/cls-bluebird-2.1.0.tgz#37ef1e080a8ffb55c2f4164f536f1919e7968aee"
+  integrity sha1-N+8eCAqP+1XC9BZPU28ZGeeWiu4=
+  dependencies:
+    is-bluebird "^1.0.2"
+    shimmer "^1.1.0"
 
 cluster-client@^3.0.1:
   version "3.0.1"
@@ -1683,6 +2148,15 @@ code-point-at@^1.0.0:
   resolved "http://registry.npm.souche-inc.com/code-point-at/download/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
+coffee@^5.2.1:
+  version "5.4.0"
+  resolved "http://registry.npm.souche-inc.com/coffee/download/coffee-5.4.0.tgz#3a372372d061da5297c962ba97fb4db567b329ac"
+  integrity sha1-OjcjctBh2lKXyWK6l/tNtWezKaw=
+  dependencies:
+    cross-spawn "^6.0.5"
+    debug "^4.1.0"
+    is-type-of "^1.2.1"
+
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.souche-inc.com/collection-visit/download/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -1698,22 +2172,51 @@ color-convert@^1.9.0:
   dependencies:
     color-name "1.1.3"
 
+color-convert@^2.0.1:
+  version "2.0.1"
+  resolved "http://registry.npm.souche-inc.com/color-convert/download/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
+  integrity sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=
+  dependencies:
+    color-name "~1.1.4"
+
 color-name@1.1.3:
   version "1.1.3"
   resolved "http://registry.npm.souche-inc.com/color-name/download/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
+
+color-name@~1.1.4:
+  version "1.1.4"
+  resolved "http://registry.npm.souche-inc.com/color-name/download/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
+  integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
 
 colors@^1.1.2:
   version "1.4.0"
   resolved "http://registry.npm.souche-inc.com/colors/download/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha1-xQSRR51MG9rtLJztMs98fcI2D3g=
 
+combined-stream@^1.0.6:
+  version "1.0.8"
+  resolved "http://registry.npm.souche-inc.com/combined-stream/download/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  integrity sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=
+  dependencies:
+    delayed-stream "~1.0.0"
+
 commander@^2.11.0, commander@^2.15.1, commander@^2.20.3:
   version "2.20.3"
   resolved "http://registry.npm.souche-inc.com/commander/download/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
 
-common-bin@^2.9.0:
+commander@^5.1.0:
+  version "5.1.0"
+  resolved "http://registry.npm.souche-inc.com/commander/download/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
+  integrity sha1-Rqu9FlL44Fm92u+Zu9yyrZzxea4=
+
+comment-parser@^0.5.4:
+  version "0.5.5"
+  resolved "http://registry.npm.souche-inc.com/comment-parser/download/comment-parser-0.5.5.tgz#c2584cae7c2f0afc773e96b2ee98f8c10cbd693d"
+  integrity sha1-wlhMrnwvCvx3Ppay7pj4wQy9aT0=
+
+common-bin@^2.8.0, common-bin@^2.9.0:
   version "2.9.0"
   resolved "http://registry.npm.souche-inc.com/common-bin/download/common-bin-2.9.0.tgz#5ba9b0e6d39da216b993e689838a404d789806b6"
   integrity sha1-W6mw5tOdoha5k+aJg4pATXiYBrY=
@@ -1736,7 +2239,7 @@ commondir@^1.0.1:
   resolved "http://registry.npm.souche-inc.com/commondir/download/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
   integrity sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=
 
-component-emitter@^1.2.1:
+component-emitter@^1.2.0, component-emitter@^1.2.1:
   version "1.3.0"
   resolved "http://registry.npm.souche-inc.com/component-emitter/download/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
   integrity sha1-FuQHD7qK4ptnnyIVhT7hgasuq8A=
@@ -1760,6 +2263,11 @@ constant-case@^2.0.0:
   dependencies:
     snake-case "^2.1.0"
     upper-case "^1.1.1"
+
+contains-path@^0.1.0:
+  version "0.1.0"
+  resolved "http://registry.npm.souche-inc.com/contains-path/download/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
+  integrity sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
 
 content-disposition@~0.5.2:
   version "0.5.3"
@@ -1785,6 +2293,11 @@ cookie@^0.3.1:
   resolved "http://registry.npm.souche-inc.com/cookie/download/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
   integrity sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
 
+cookiejar@^2.1.0:
+  version "2.1.2"
+  resolved "http://registry.npm.souche-inc.com/cookiejar/download/cookiejar-2.1.2.tgz#dd8a235530752f988f9a0844f3fc589e3111125c"
+  integrity sha1-3YojVTB1L5iPmghE8/xYnjERElw=
+
 cookies@~0.8.0:
   version "0.8.0"
   resolved "http://registry.npm.souche-inc.com/cookies/download/cookies-0.8.0.tgz#1293ce4b391740a8406e3c9870e828c4b54f3f90"
@@ -1802,6 +2315,11 @@ copy-to@^2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.souche-inc.com/copy-to/download/copy-to-2.0.1.tgz#2680fbb8068a48d08656b6098092bdafc906f4a5"
   integrity sha1-JoD7uAaKSNCGVrYJgJK9r8kG9KU=
+
+core-js-pure@^3.0.0:
+  version "3.6.5"
+  resolved "http://registry.npm.souche-inc.com/core-js-pure/download/core-js-pure-3.6.5.tgz#c79e75f5e38dbc85a662d91eea52b8256d53b813"
+  integrity sha1-x5519eONvIWmYtke6lK4JW1TuBM=
 
 core-js@^2.0.0, core-js@^2.4.0, core-js@^2.5.0:
   version "2.6.11"
@@ -1826,9 +2344,9 @@ crequire@^1.8.0, crequire@^1.8.1:
   integrity sha1-rIHyBHhrXyARlOsWmM9EGxCktX0=
 
 cron-parser@^2.4.4:
-  version "2.15.0"
-  resolved "http://registry.npm.souche-inc.com/cron-parser/download/cron-parser-2.15.0.tgz#04803cd51d8efcfcc6f83ac08e60f3f8c40c7ec5"
-  integrity sha1-BIA81R2O/PzG+DrAjmDz+MQMfsU=
+  version "2.16.3"
+  resolved "http://registry.npm.souche-inc.com/cron-parser/download/cron-parser-2.16.3.tgz#acb8e405eed1733aac542fdf604cb7c1daf0204a"
+  integrity sha1-rLjkBe7RczqsVC/fYEy3wdrwIEo=
   dependencies:
     is-nan "^1.3.0"
     moment-timezone "^0.5.31"
@@ -1841,7 +2359,7 @@ cross-spawn@^4:
     lru-cache "^4.0.1"
     which "^1.2.9"
 
-cross-spawn@^6.0.0:
+cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
   resolved "http://registry.npm.souche-inc.com/cross-spawn/download/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
   integrity sha1-Sl7Hxk364iw6FBJNus3uhG2Ay8Q=
@@ -1873,6 +2391,11 @@ d@1, d@^1.0.1:
   dependencies:
     es5-ext "^0.10.50"
     type "^1.0.1"
+
+damerau-levenshtein@^1.0.6:
+  version "1.0.6"
+  resolved "http://registry.npm.souche-inc.com/damerau-levenshtein/download/damerau-levenshtein-1.0.6.tgz#143c1641cb3d85c60c32329e26899adea8701791"
+  integrity sha1-FDwWQcs9hcYMMjKeJoma3qhwF5E=
 
 dargs@^6.0.0:
   version "6.1.0"
@@ -1910,7 +2433,7 @@ debug@3.2.6, debug@^3.0.1, debug@^3.1.0, debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
-debug@4, debug@^4.1.0, debug@^4.1.1:
+debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   version "4.1.1"
   resolved "http://registry.npm.souche-inc.com/debug/download/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha1-O3ImAlUQnGtYnO4FDx1RYTlmR5E=
@@ -2001,10 +2524,20 @@ degenerator@^1.0.4:
     escodegen "1.x.x"
     esprima "3.x.x"
 
+delayed-stream@~1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.souche-inc.com/delayed-stream/download/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+  integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+
 delegates@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.souche-inc.com/delegates/download/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
+
+denque@^1.4.1:
+  version "1.4.1"
+  resolved "http://registry.npm.souche-inc.com/denque/download/denque-1.4.1.tgz#6744ff7641c148c3f8a69c307e51235c1f4a37cf"
+  integrity sha1-Z0T/dkHBSMP4ppwwflEjXB9KN88=
 
 depd@^1.1.2, depd@~1.1.2:
   version "1.1.2"
@@ -2076,6 +2609,28 @@ dir-glob@^2.2.2:
   dependencies:
     path-type "^3.0.0"
 
+doctrine@1.5.0:
+  version "1.5.0"
+  resolved "http://registry.npm.souche-inc.com/doctrine/download/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
+  integrity sha1-N53Ocw9hZvds76TmcHoVmwLFpvo=
+  dependencies:
+    esutils "^2.0.2"
+    isarray "^1.0.0"
+
+doctrine@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.npm.souche-inc.com/doctrine/download/doctrine-2.1.0.tgz#5cd01fc101621b42c4cd7f5d1a66243716d3f39d"
+  integrity sha1-XNAfwQFiG0LEzX9dGmYkNxbT850=
+  dependencies:
+    esutils "^2.0.2"
+
+doctrine@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.souche-inc.com/doctrine/download/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"
+  integrity sha1-rd6+rXKmV023g2OdyHoSF3OXOWE=
+  dependencies:
+    esutils "^2.0.2"
+
 dot-case@^2.1.0:
   version "2.1.1"
   resolved "http://registry.npm.souche-inc.com/dot-case/download/dot-case-2.1.1.tgz#34dcf37f50a8e93c2b3bca8bb7fb9155c7da3bee"
@@ -2090,10 +2645,25 @@ dot-prop@^4.2.0:
   dependencies:
     is-obj "^1.0.0"
 
+dottie@^2.0.0:
+  version "2.0.2"
+  resolved "http://registry.npm.souche-inc.com/dottie/download/dottie-2.0.2.tgz#cc91c0726ce3a054ebf11c55fbc92a7f266dd154"
+  integrity sha1-zJHAcmzjoFTr8RxV+8kqfyZt0VQ=
+
 duplexer@~0.1.1:
   version "0.1.1"
   resolved "http://registry.npm.souche-inc.com/duplexer/download/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
   integrity sha1-rOb/gIwc5mtX0ev5eXessCM0z8E=
+
+duplexify@^3.6.0:
+  version "3.7.1"
+  resolved "http://registry.npm.souche-inc.com/duplexify/download/duplexify-3.7.1.tgz#2a4df5317f6ccfd91f86d6fd25d8d8a103b88309"
+  integrity sha1-Kk31MX9sz9kfhtb9JdjYoQO4gwk=
+  dependencies:
+    end-of-stream "^1.0.0"
+    inherits "^2.0.1"
+    readable-stream "^2.0.0"
+    stream-shift "^1.0.0"
 
 eastasianwidth@^0.2.0:
   version "0.2.0"
@@ -2105,7 +2675,7 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.souche-inc.com/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@^4.15.0:
+egg-bin@^4.11.0:
   version "4.15.0"
   resolved "http://registry.npm.souche-inc.com/egg-bin/download/egg-bin-4.15.0.tgz#9d1eb3765fdd9c7483427af90d14dc2f51320435"
   integrity sha1-nR6zdl/dnHSDQnr5DRTcL1EyBDU=
@@ -2131,6 +2701,13 @@ egg-bin@^4.15.0:
     test-exclude "^5.1.0"
     ts-node "^7"
     ypkgfiles "^1.6.0"
+
+egg-ci@^1.8.0:
+  version "1.15.0"
+  resolved "http://registry.npm.souche-inc.com/egg-ci/download/egg-ci-1.15.0.tgz#76f85d2aaf6ea56291ffa7e215f7a32f5a26745c"
+  integrity sha1-dvhdKq9upWKR/6fiFfejL1omdFw=
+  dependencies:
+    nunjucks "^3.1.3"
 
 egg-cluster@^1.23.0:
   version "1.26.0"
@@ -2237,6 +2814,33 @@ egg-logrotator@^3.0.5:
     moment "^2.24.0"
     mz "^2.7.0"
 
+egg-mock@^3.16.0:
+  version "3.25.1"
+  resolved "http://registry.npm.souche-inc.com/egg-mock/download/egg-mock-3.25.1.tgz#d36438ff2bbf681a235040824e29c3d55b86699e"
+  integrity sha1-02Q4/yu/aBojUECCTinD1VuGaZ4=
+  dependencies:
+    "@types/power-assert" "^1.5.0"
+    "@types/supertest" "^2.0.7"
+    await-event "^2.1.0"
+    co "^4.6.0"
+    coffee "^5.2.1"
+    debug "^4.1.1"
+    detect-port "^1.3.0"
+    egg-logger "^2.4.1"
+    egg-utils "^2.4.1"
+    extend2 "^1.0.0"
+    get-ready "^2.0.1"
+    globby "^9.2.0"
+    is-type-of "^1.2.1"
+    ko-sleep "^1.0.3"
+    merge-descriptors "^1.0.1"
+    methods "^1.1.2"
+    mm "^2.5.0"
+    mz-modules "^2.1.0"
+    power-assert "^1.6.1"
+    supertest "^4.0.2"
+    urllib "^2.33.3"
+
 egg-multipart@^2.4.0:
   version "2.10.3"
   resolved "http://registry.npm.souche-inc.com/egg-multipart/download/egg-multipart-2.10.3.tgz#0d5f2841dd31d39189db14ebb10ae6337d9ab025"
@@ -2279,6 +2883,23 @@ egg-schedule@^3.6.0:
     safe-timers "^1.1.0"
     utility "^1.13.1"
 
+egg-scripts@^2.6.0:
+  version "2.13.0"
+  resolved "http://registry.npm.souche-inc.com/egg-scripts/download/egg-scripts-2.13.0.tgz#3e88262e3161e9003cf07e6dbd0074870e65c6cb"
+  integrity sha1-PogmLjFh6QA88H5tvQB0hw5lxss=
+  dependencies:
+    await-event "^2.1.0"
+    common-bin "^2.8.0"
+    debug "^4.1.0"
+    egg-utils "^2.4.1"
+    moment "^2.23.0"
+    mz "^2.7.0"
+    mz-modules "^2.1.0"
+    node-homedir "^1.1.1"
+    runscript "^1.3.0"
+    source-map-support "^0.5.9"
+    zlogger "^1.1.0"
+
 egg-security@^2.4.3:
   version "2.8.0"
   resolved "http://registry.npm.souche-inc.com/egg-security/download/egg-security-2.8.0.tgz#07b450c1022f5a52370e52cc68a166bb5c32f6c4"
@@ -2299,6 +2920,15 @@ egg-security@^2.4.3:
     statuses "^1.5.0"
     type-is "^1.6.15"
     xss "^1.0.3"
+
+egg-sequelize@^5.2.2:
+  version "5.2.2"
+  resolved "http://registry.npm.souche-inc.com/egg-sequelize/download/egg-sequelize-5.2.2.tgz#33032c9295d982dc8cea21604db241edea5c837f"
+  integrity sha1-MwMskpXZgtyM6iFgTbJB7epcg38=
+  dependencies:
+    "@types/sequelize" "^4.27.24"
+    mz-modules "^2.1.0"
+    sequelize "^5.0.0"
 
 egg-session@^3.1.0:
   version "3.2.0"
@@ -2362,7 +2992,7 @@ egg-watcher@^3.1.0:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@^2.27.0:
+egg@^2.6.1:
   version "2.27.0"
   resolved "http://registry.npm.souche-inc.com/egg/download/egg-2.27.0.tgz#9c7827f9f1838014ac8b0146d028741fc7d4d7d3"
   integrity sha1-nHgn+fGDgBSsiwFG0Ch0H8fU19M=
@@ -2409,14 +3039,24 @@ egg@^2.27.0:
     ylru "^1.2.1"
 
 electron-to-chromium@^1.3.47:
-  version "1.3.524"
-  resolved "http://registry.npm.souche-inc.com/electron-to-chromium/download/electron-to-chromium-1.3.524.tgz#dd49646594466192de35956a5369bb20d616aa78"
-  integrity sha1-3UlkZZRGYZLeNZVqU2m7INYWqng=
+  version "1.3.526"
+  resolved "http://registry.npm.souche-inc.com/electron-to-chromium/download/electron-to-chromium-1.3.526.tgz#0e004899edf75afc172cce1b8189aac5dca646aa"
+  integrity sha1-DgBIme33WvwXLM4bgYmqxdymRqo=
 
 emoji-regex@^7.0.1:
   version "7.0.3"
   resolved "http://registry.npm.souche-inc.com/emoji-regex/download/emoji-regex-7.0.3.tgz#933a04052860c85e83c122479c4748a8e4c72156"
   integrity sha1-kzoEBShgyF6DwSJHnEdIqOTHIVY=
+
+emoji-regex@^8.0.0:
+  version "8.0.0"
+  resolved "http://registry.npm.souche-inc.com/emoji-regex/download/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
+  integrity sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc=
+
+emoji-regex@^9.0.0:
+  version "9.0.0"
+  resolved "http://registry.npm.souche-inc.com/emoji-regex/download/emoji-regex-9.0.0.tgz#48a2309cc8a1d2e9d23bc6a67c39b63032e76ea4"
+  integrity sha1-SKIwnMih0unSO8amfDm2MDLnbqQ=
 
 empower-assert@^1.0.0:
   version "1.1.0"
@@ -2446,7 +3086,7 @@ encodeurl@^1.0.2:
   resolved "http://registry.npm.souche-inc.com/encodeurl/download/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
-end-of-stream@^1.1.0:
+end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.4"
   resolved "http://registry.npm.souche-inc.com/end-of-stream/download/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
   integrity sha1-WuZKX0UFe682JuwU2gyl5LJDHrA=
@@ -2467,7 +3107,7 @@ error-ex@^1.2.0, error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-es-abstract@^1.17.0-next.1, es-abstract@^1.17.5:
+es-abstract@^1.17.0, es-abstract@^1.17.0-next.1, es-abstract@^1.17.5:
   version "1.17.6"
   resolved "http://registry.npm.souche-inc.com/es-abstract/download/es-abstract-1.17.6.tgz#9142071707857b2cacc7b89ecb670316c3e2d52a"
   integrity sha1-kUIHFweFeyysx7iey2cDFsPi1So=
@@ -2617,6 +3257,181 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
+eslint-config-egg@^8.0.0:
+  version "8.0.1"
+  resolved "http://registry.npm.souche-inc.com/eslint-config-egg/download/eslint-config-egg-8.0.1.tgz#cc68cb060fd9e054dc2983b145753c647e4bb79a"
+  integrity sha1-zGjLBg/Z4FTcKYOxRXU8ZH5Lt5o=
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^2.0.0"
+    "@typescript-eslint/parser" "^2.0.0"
+    babel-eslint "^8.2.6"
+    eslint-plugin-eggache "^1.0.0"
+    eslint-plugin-import "^2.14.0"
+    eslint-plugin-jsdoc "^4.1.1"
+    eslint-plugin-jsx-a11y "^6.1.1"
+    eslint-plugin-react "^7.11.1"
+
+eslint-import-resolver-node@^0.3.3:
+  version "0.3.4"
+  resolved "http://registry.npm.souche-inc.com/eslint-import-resolver-node/download/eslint-import-resolver-node-0.3.4.tgz#85ffa81942c25012d8231096ddf679c03042c717"
+  integrity sha1-hf+oGULCUBLYIxCW3fZ5wDBCxxc=
+  dependencies:
+    debug "^2.6.9"
+    resolve "^1.13.1"
+
+eslint-module-utils@^2.6.0:
+  version "2.6.0"
+  resolved "http://registry.npm.souche-inc.com/eslint-module-utils/download/eslint-module-utils-2.6.0.tgz#579ebd094f56af7797d19c9866c9c9486629bfa6"
+  integrity sha1-V569CU9Wr3eX0ZyYZsnJSGYpv6Y=
+  dependencies:
+    debug "^2.6.9"
+    pkg-dir "^2.0.0"
+
+eslint-plugin-eggache@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.souche-inc.com/eslint-plugin-eggache/download/eslint-plugin-eggache-1.0.0.tgz#1f8f98c698d2b511519fbdefbae78fe230487aa4"
+  integrity sha1-H4+YxpjStRFRn73vuueP4jBIeqQ=
+
+eslint-plugin-import@^2.14.0:
+  version "2.22.0"
+  resolved "http://registry.npm.souche-inc.com/eslint-plugin-import/download/eslint-plugin-import-2.22.0.tgz#92f7736fe1fde3e2de77623c838dd992ff5ffb7e"
+  integrity sha1-kvdzb+H94+Led2I8g43Zkv9f+34=
+  dependencies:
+    array-includes "^3.1.1"
+    array.prototype.flat "^1.2.3"
+    contains-path "^0.1.0"
+    debug "^2.6.9"
+    doctrine "1.5.0"
+    eslint-import-resolver-node "^0.3.3"
+    eslint-module-utils "^2.6.0"
+    has "^1.0.3"
+    minimatch "^3.0.4"
+    object.values "^1.1.1"
+    read-pkg-up "^2.0.0"
+    resolve "^1.17.0"
+    tsconfig-paths "^3.9.0"
+
+eslint-plugin-jsdoc@^4.1.1:
+  version "4.8.4"
+  resolved "http://registry.npm.souche-inc.com/eslint-plugin-jsdoc/download/eslint-plugin-jsdoc-4.8.4.tgz#31f413c8a31fe656881398d8920b381bfdfac618"
+  integrity sha1-MfQTyKMf5laIE5jYkgs4G/36xhg=
+  dependencies:
+    comment-parser "^0.5.4"
+    jsdoctypeparser "3.1.0"
+    lodash "^4.17.11"
+
+eslint-plugin-jsx-a11y@^6.1.1:
+  version "6.3.1"
+  resolved "http://registry.npm.souche-inc.com/eslint-plugin-jsx-a11y/download/eslint-plugin-jsx-a11y-6.3.1.tgz#99ef7e97f567cc6a5b8dd5ab95a94a67058a2660"
+  integrity sha1-me9+l/VnzGpbjdWrlalKZwWKJmA=
+  dependencies:
+    "@babel/runtime" "^7.10.2"
+    aria-query "^4.2.2"
+    array-includes "^3.1.1"
+    ast-types-flow "^0.0.7"
+    axe-core "^3.5.4"
+    axobject-query "^2.1.2"
+    damerau-levenshtein "^1.0.6"
+    emoji-regex "^9.0.0"
+    has "^1.0.3"
+    jsx-ast-utils "^2.4.1"
+    language-tags "^1.0.5"
+
+eslint-plugin-react@^7.11.1:
+  version "7.20.5"
+  resolved "http://registry.npm.souche-inc.com/eslint-plugin-react/download/eslint-plugin-react-7.20.5.tgz#29480f3071f64a04b2c3d99d9b460ce0f76fb857"
+  integrity sha1-KUgPMHH2SgSyw9mdm0YM4PdvuFc=
+  dependencies:
+    array-includes "^3.1.1"
+    array.prototype.flatmap "^1.2.3"
+    doctrine "^2.1.0"
+    has "^1.0.3"
+    jsx-ast-utils "^2.4.1"
+    object.entries "^1.1.2"
+    object.fromentries "^2.0.2"
+    object.values "^1.1.1"
+    prop-types "^15.7.2"
+    resolve "^1.17.0"
+    string.prototype.matchall "^4.0.2"
+
+eslint-scope@3.7.1:
+  version "3.7.1"
+  resolved "http://registry.npm.souche-inc.com/eslint-scope/download/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
+  integrity sha1-PWPD7f2gLgbgGkUq2IyqzHzctug=
+  dependencies:
+    esrecurse "^4.1.0"
+    estraverse "^4.1.1"
+
+eslint-scope@^5.0.0:
+  version "5.1.0"
+  resolved "http://registry.npm.souche-inc.com/eslint-scope/download/eslint-scope-5.1.0.tgz#d0f971dfe59c69e0cada684b23d49dbf82600ce5"
+  integrity sha1-0Plx3+WcaeDK2mhLI9Sdv4JgDOU=
+  dependencies:
+    esrecurse "^4.1.0"
+    estraverse "^4.1.1"
+
+eslint-utils@^1.4.3:
+  version "1.4.3"
+  resolved "http://registry.npm.souche-inc.com/eslint-utils/download/eslint-utils-1.4.3.tgz#74fec7c54d0776b6f67e0251040b5806564e981f"
+  integrity sha1-dP7HxU0Hdrb2fgJRBAtYBlZOmB8=
+  dependencies:
+    eslint-visitor-keys "^1.1.0"
+
+eslint-utils@^2.0.0:
+  version "2.1.0"
+  resolved "http://registry.npm.souche-inc.com/eslint-utils/download/eslint-utils-2.1.0.tgz#d2de5e03424e707dc10c74068ddedae708741b27"
+  integrity sha1-0t5eA0JOcH3BDHQGjd7a5wh0Gyc=
+  dependencies:
+    eslint-visitor-keys "^1.1.0"
+
+eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
+  version "1.3.0"
+  resolved "http://registry.npm.souche-inc.com/eslint-visitor-keys/download/eslint-visitor-keys-1.3.0.tgz#30ebd1ef7c2fdff01c3a4f151044af25fab0523e"
+  integrity sha1-MOvR73wv3/AcOk8VEESvJfqwUj4=
+
+eslint@^6.7.2:
+  version "6.8.0"
+  resolved "http://registry.npm.souche-inc.com/eslint/download/eslint-6.8.0.tgz#62262d6729739f9275723824302fb227c8c93ffb"
+  integrity sha1-YiYtZylzn5J1cjgkMC+yJ8jJP/s=
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    ajv "^6.10.0"
+    chalk "^2.1.0"
+    cross-spawn "^6.0.5"
+    debug "^4.0.1"
+    doctrine "^3.0.0"
+    eslint-scope "^5.0.0"
+    eslint-utils "^1.4.3"
+    eslint-visitor-keys "^1.1.0"
+    espree "^6.1.2"
+    esquery "^1.0.1"
+    esutils "^2.0.2"
+    file-entry-cache "^5.0.1"
+    functional-red-black-tree "^1.0.1"
+    glob-parent "^5.0.0"
+    globals "^12.1.0"
+    ignore "^4.0.6"
+    import-fresh "^3.0.0"
+    imurmurhash "^0.1.4"
+    inquirer "^7.0.0"
+    is-glob "^4.0.0"
+    js-yaml "^3.13.1"
+    json-stable-stringify-without-jsonify "^1.0.1"
+    levn "^0.3.0"
+    lodash "^4.17.14"
+    minimatch "^3.0.4"
+    mkdirp "^0.5.1"
+    natural-compare "^1.4.0"
+    optionator "^0.8.3"
+    progress "^2.0.0"
+    regexpp "^2.0.1"
+    semver "^6.1.2"
+    strip-ansi "^5.2.0"
+    strip-json-comments "^3.0.1"
+    table "^5.2.3"
+    text-table "^0.2.0"
+    v8-compile-cache "^2.0.3"
+
 espower-loader@^1.0.0:
   version "1.2.2"
   resolved "http://registry.npm.souche-inc.com/espower-loader/download/espower-loader-1.2.2.tgz#edb46c3c59a06bac8ea73a695c86e5c5a0bc82da"
@@ -2680,6 +3495,15 @@ espower@^2.1.1:
     source-map "^0.5.0"
     type-name "^2.0.0"
 
+espree@^6.1.2:
+  version "6.2.1"
+  resolved "http://registry.npm.souche-inc.com/espree/download/espree-6.2.1.tgz#77fc72e1fd744a2052c20f38a5b575832e82734a"
+  integrity sha1-d/xy4f10SiBSwg84pbV1gy6Cc0o=
+  dependencies:
+    acorn "^7.1.1"
+    acorn-jsx "^5.2.0"
+    eslint-visitor-keys "^1.1.0"
+
 esprima@3.x.x:
   version "3.1.3"
   resolved "http://registry.npm.souche-inc.com/esprima/download/esprima-3.1.3.tgz#fdca51cee6133895e3c88d535ce49dbff62a4633"
@@ -2690,7 +3514,7 @@ esprima@^2.0.0:
   resolved "http://registry.npm.souche-inc.com/esprima/download/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
   integrity sha1-luO3DVd59q1JzQMmc9HDEnZ7pYE=
 
-esprima@^4.0.0, esprima@^4.0.1:
+esprima@^4.0.0, esprima@^4.0.1, esprima@~4.0.0:
   version "4.0.1"
   resolved "http://registry.npm.souche-inc.com/esprima/download/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha1-E7BM2z5sXRnfkatph6hpVhmwqnE=
@@ -2701,6 +3525,13 @@ espurify@^1.3.0, espurify@^1.6.0:
   integrity sha1-V0bGwatC0wLeEL0dW/fw6MBRUFY=
   dependencies:
     core-js "^2.0.0"
+
+esquery@^1.0.1:
+  version "1.3.1"
+  resolved "http://registry.npm.souche-inc.com/esquery/download/esquery-1.3.1.tgz#b78b5828aa8e214e29fb74c4d5b752e1c033da57"
+  integrity sha1-t4tYKKqOIU4p+3TE1bdS4cAz2lc=
+  dependencies:
+    estraverse "^5.1.0"
 
 esrecurse@^4.1.0:
   version "4.2.1"
@@ -2713,6 +3544,11 @@ estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.3.0"
   resolved "http://registry.npm.souche-inc.com/estraverse/download/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
   integrity sha1-OYrT88WiSUi+dyXoPRGn3ijNvR0=
+
+estraverse@^5.1.0:
+  version "5.2.0"
+  resolved "http://registry.npm.souche-inc.com/estraverse/download/estraverse-5.2.0.tgz#307df42547e6cc7324d3cf03c155d5cdb8c53880"
+  integrity sha1-MH30JUfmzHMk088DwVXVzbjFOIA=
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -2793,10 +3629,19 @@ extend2@^1.0.0:
   resolved "http://registry.npm.souche-inc.com/extend2/download/extend2-1.0.0.tgz#0425a989b4dac2a486a32257f5140103756a7a3c"
   integrity sha1-BCWpibTawqSGoyJX9RQBA3Vqejw=
 
-extend@^3.0.1, extend@~3.0.2:
+extend@^3.0.0, extend@^3.0.1, extend@~3.0.2:
   version "3.0.2"
   resolved "http://registry.npm.souche-inc.com/extend/download/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
+
+external-editor@^3.0.3:
+  version "3.1.0"
+  resolved "http://registry.npm.souche-inc.com/external-editor/download/external-editor-3.1.0.tgz#cb03f740befae03ea4d283caed2741a83f335495"
+  integrity sha1-ywP3QL764D6k0oPK7SdBqD8zVJU=
+  dependencies:
+    chardet "^0.7.0"
+    iconv-lite "^0.4.24"
+    tmp "^0.0.33"
 
 extglob@^2.0.4:
   version "2.0.4"
@@ -2812,6 +3657,11 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+fast-deep-equal@^3.1.1:
+  version "3.1.3"
+  resolved "http://registry.npm.souche-inc.com/fast-deep-equal/download/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
+  integrity sha1-On1WtVnWy8PrUSMlJE5hmmXGxSU=
+
 fast-glob@^2.0.2, fast-glob@^2.2.6:
   version "2.2.7"
   resolved "http://registry.npm.souche-inc.com/fast-glob/download/fast-glob-2.2.7.tgz#6953857c3afa475fff92ee6015d52da70a4cd39d"
@@ -2824,10 +3674,29 @@ fast-glob@^2.0.2, fast-glob@^2.2.6:
     merge2 "^1.2.3"
     micromatch "^3.1.10"
 
+fast-json-stable-stringify@^2.0.0:
+  version "2.1.0"
+  resolved "http://registry.npm.souche-inc.com/fast-json-stable-stringify/download/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
+  integrity sha1-h0v2nG9ATCtdmcSBNBOZ/VWJJjM=
+
 fast-levenshtein@~2.0.6:
   version "2.0.6"
   resolved "http://registry.npm.souche-inc.com/fast-levenshtein/download/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
+figures@^3.0.0:
+  version "3.2.0"
+  resolved "http://registry.npm.souche-inc.com/figures/download/figures-3.2.0.tgz#625c18bd293c604dc4a8ddb2febf0c88341746af"
+  integrity sha1-YlwYvSk8YE3EqN2y/r8MiDQXRq8=
+  dependencies:
+    escape-string-regexp "^1.0.5"
+
+file-entry-cache@^5.0.1:
+  version "5.0.1"
+  resolved "http://registry.npm.souche-inc.com/file-entry-cache/download/file-entry-cache-5.0.1.tgz#ca0f6efa6dd3d561333fb14515065c2fafdf439c"
+  integrity sha1-yg9u+m3T1WEzP7FFFQZcL6/fQ5w=
+  dependencies:
+    flat-cache "^2.0.1"
 
 file-uri-to-path@1, file-uri-to-path@1.0.0:
   version "1.0.0"
@@ -2843,6 +3712,13 @@ fill-range@^4.0.0:
     is-number "^3.0.0"
     repeat-string "^1.6.1"
     to-regex-range "^2.1.0"
+
+fill-range@^7.0.1:
+  version "7.0.1"
+  resolved "http://registry.npm.souche-inc.com/fill-range/download/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
+  integrity sha1-GRmmp8df44ssfHflGYU12prN2kA=
+  dependencies:
+    to-regex-range "^5.0.1"
 
 find-cache-dir@^2.0.0:
   version "2.1.0"
@@ -2868,12 +3744,33 @@ find-up@^1.0.0:
     path-exists "^2.0.0"
     pinkie-promise "^2.0.0"
 
+find-up@^2.0.0, find-up@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.npm.souche-inc.com/find-up/download/find-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
+  integrity sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
+  dependencies:
+    locate-path "^2.0.0"
+
+flat-cache@^2.0.1:
+  version "2.0.1"
+  resolved "http://registry.npm.souche-inc.com/flat-cache/download/flat-cache-2.0.1.tgz#5d296d6f04bda44a4630a301413bdbc2ec085ec0"
+  integrity sha1-XSltbwS9pEpGMKMBQTvbwuwIXsA=
+  dependencies:
+    flatted "^2.0.0"
+    rimraf "2.6.3"
+    write "1.0.3"
+
 flat@^4.1.0:
   version "4.1.0"
   resolved "http://registry.npm.souche-inc.com/flat/download/flat-4.1.0.tgz#090bec8b05e39cba309747f1d588f04dbaf98db2"
   integrity sha1-CQvsiwXjnLowl0fx1YjwTbr5jbI=
   dependencies:
     is-buffer "~2.0.3"
+
+flatted@^2.0.0:
+  version "2.0.2"
+  resolved "http://registry.npm.souche-inc.com/flatted/download/flatted-2.0.2.tgz#4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
+  integrity sha1-RXWyHivO50NKqb5mL0t7X5wrUTg=
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -2887,6 +3784,20 @@ foreground-child@^1.5.6:
   dependencies:
     cross-spawn "^4"
     signal-exit "^3.0.0"
+
+form-data@^2.3.1:
+  version "2.5.1"
+  resolved "http://registry.npm.souche-inc.com/form-data/download/form-data-2.5.1.tgz#f2cbec57b5e59e23716e128fe44d4e5dd23895f4"
+  integrity sha1-8svsV7XlniNxbhKP5E1OXdI4lfQ=
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.6"
+    mime-types "^2.1.12"
+
+formidable@^1.2.0:
+  version "1.2.2"
+  resolved "http://registry.npm.souche-inc.com/formidable/download/formidable-1.2.2.tgz#bf69aea2972982675f00865342b982986f6b8dd9"
+  integrity sha1-v2muopcpgmdfAIZTQrmCmG9rjdk=
 
 formstream@^1.1.0:
   version "1.1.0"
@@ -2932,6 +3843,11 @@ fsevents@^1.2.7:
     bindings "^1.5.0"
     nan "^2.12.1"
 
+fsevents@~2.1.2:
+  version "2.1.3"
+  resolved "http://registry.npm.souche-inc.com/fsevents/download/fsevents-2.1.3.tgz#fb738703ae8d2f9fe900c33836ddebee8b97f23e"
+  integrity sha1-+3OHA66NL5/pAMM4Nt3r7ouX8j4=
+
 ftp@~0.3.10:
   version "0.3.10"
   resolved "http://registry.npm.souche-inc.com/ftp/download/ftp-0.3.10.tgz#9197d861ad8142f3e63d5a83bfe4c59f7330885d"
@@ -2944,6 +3860,18 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.souche-inc.com/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
+
+functional-red-black-tree@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.souche-inc.com/functional-red-black-tree/download/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
+  integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
+
+generate-function@^2.3.1:
+  version "2.3.1"
+  resolved "http://registry.npm.souche-inc.com/generate-function/download/generate-function-2.3.1.tgz#f069617690c10c868e73b8465746764f97c3479f"
+  integrity sha1-8GlhdpDBDIaOc7hGV0Z2T5fDR58=
+  dependencies:
+    is-property "^1.0.2"
 
 get-caller-file@^1.0.1:
   version "1.0.3"
@@ -2999,6 +3927,13 @@ glob-parent@^3.1.0:
     is-glob "^3.1.0"
     path-dirname "^1.0.0"
 
+glob-parent@^5.0.0, glob-parent@~5.1.0:
+  version "5.1.1"
+  resolved "http://registry.npm.souche-inc.com/glob-parent/download/glob-parent-5.1.1.tgz#b6c1ef417c4e5663ea498f1c45afac6916bbc229"
+  integrity sha1-tsHvQXxOVmPqSY8cRa+saRa7wik=
+  dependencies:
+    is-glob "^4.0.1"
+
 glob-to-regexp@^0.3.0:
   version "0.3.0"
   resolved "http://registry.npm.souche-inc.com/glob-to-regexp/download/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
@@ -3016,7 +3951,7 @@ glob@7.1.3:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.1.1, glob@^7.1.2, glob@^7.1.3:
+glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.6:
   version "7.1.6"
   resolved "http://registry.npm.souche-inc.com/glob/download/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   integrity sha1-FB8zuBp8JJLhJVlDB0gMRmeSeKY=
@@ -3032,6 +3967,13 @@ globals@^11.1.0:
   version "11.12.0"
   resolved "http://registry.npm.souche-inc.com/globals/download/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=
+
+globals@^12.1.0:
+  version "12.4.0"
+  resolved "http://registry.npm.souche-inc.com/globals/download/globals-12.4.0.tgz#a18813576a41b00a24a97e7f815918c2e19925f8"
+  integrity sha1-oYgTV2pBsAokqX5/gVkYwuGZJfg=
+  dependencies:
+    type-fest "^0.8.1"
 
 globals@^9.18.0:
   version "9.18.0"
@@ -3102,6 +4044,11 @@ has-flag@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.souche-inc.com/has-flag/download/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
   integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+
+has-flag@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.npm.souche-inc.com/has-flag/download/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
+  integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
 
 has-symbols@^1.0.0, has-symbols@^1.0.1:
   version "1.0.1"
@@ -3251,6 +4198,13 @@ iconv-lite@0.4.24, iconv-lite@^0.4.15, iconv-lite@^0.4.24:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+iconv-lite@^0.5.0:
+  version "0.5.2"
+  resolved "http://registry.npm.souche-inc.com/iconv-lite/download/iconv-lite-0.5.2.tgz#af6d628dccfb463b7364d97f715e4b74b8c8c2b8"
+  integrity sha1-r21ijcz7RjtzZNl/cV5LdLjIwrg=
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3"
+
 ieee754@^1.1.4:
   version "1.1.13"
   resolved "http://registry.npm.souche-inc.com/ieee754/download/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
@@ -3261,10 +4215,18 @@ ignore@^3.3.5:
   resolved "http://registry.npm.souche-inc.com/ignore/download/ignore-3.3.10.tgz#0a97fb876986e8081c631160f8f9f389157f0043"
   integrity sha1-Cpf7h2mG6AgcYxFg+PnziRV/AEM=
 
-ignore@^4.0.3:
+ignore@^4.0.3, ignore@^4.0.6:
   version "4.0.6"
   resolved "http://registry.npm.souche-inc.com/ignore/download/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha1-dQ49tYYgh7RzfrrIIH/9HvJ7Jfw=
+
+import-fresh@^3.0.0:
+  version "3.2.1"
+  resolved "http://registry.npm.souche-inc.com/import-fresh/download/import-fresh-3.2.1.tgz#633ff618506e793af5ac91bf48b72677e15cbe66"
+  integrity sha1-Yz/2GFBueTr1rJG/SLcmd+FcvmY=
+  dependencies:
+    parent-module "^1.0.0"
+    resolve-from "^4.0.0"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -3281,7 +4243,7 @@ inflation@^2.0.0:
   resolved "http://registry.npm.souche-inc.com/inflation/download/inflation-2.0.0.tgz#8b417e47c28f925a45133d914ca1fd389107f30f"
   integrity sha1-i0F+R8KPklpFEz2RTKH9OJEH8w8=
 
-inflection@^1.12.0:
+inflection@1.12.0, inflection@^1.12.0:
   version "1.12.0"
   resolved "http://registry.npm.souche-inc.com/inflection/download/inflection-1.12.0.tgz#a200935656d6f5f6bc4dc7502e1aecb703228416"
   integrity sha1-ogCTVlbW9fa8TcdQLhrstwMihBY=
@@ -3294,7 +4256,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.4, inherits@^2.0.3, inherits@~2.0.1, inherits@~2.0.3:
+inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.1, inherits@~2.0.3:
   version "2.0.4"
   resolved "http://registry.npm.souche-inc.com/inherits/download/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
@@ -3303,6 +4265,25 @@ ini@^1.3.4:
   version "1.3.5"
   resolved "http://registry.npm.souche-inc.com/ini/download/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
+
+inquirer@^7.0.0:
+  version "7.3.3"
+  resolved "http://registry.npm.souche-inc.com/inquirer/download/inquirer-7.3.3.tgz#04d176b2af04afc157a83fd7c100e98ee0aad003"
+  integrity sha1-BNF2sq8Er8FXqD/XwQDpjuCq0AM=
+  dependencies:
+    ansi-escapes "^4.2.1"
+    chalk "^4.1.0"
+    cli-cursor "^3.1.0"
+    cli-width "^3.0.0"
+    external-editor "^3.0.3"
+    figures "^3.0.0"
+    lodash "^4.17.19"
+    mute-stream "0.0.8"
+    run-async "^2.4.0"
+    rxjs "^6.6.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+    through "^2.3.6"
 
 inspector-proxy@^1.2.1:
   version "1.2.1"
@@ -3321,7 +4302,16 @@ intelli-espower-loader@^1.0.1:
   dependencies:
     espower-loader "^1.0.0"
 
-invariant@^2.2.2:
+internal-slot@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.souche-inc.com/internal-slot/download/internal-slot-1.0.2.tgz#9c2e9fb3cd8e5e4256c6f45fe310067fcfa378a3"
+  integrity sha1-nC6fs82OXkJWxvRf4xAGf8+jeKM=
+  dependencies:
+    es-abstract "^1.17.0-next.1"
+    has "^1.0.3"
+    side-channel "^1.0.2"
+
+invariant@^2.2.0, invariant@^2.2.2:
   version "2.2.4"
   resolved "http://registry.npm.souche-inc.com/invariant/download/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -3373,6 +4363,18 @@ is-binary-path@^1.0.0:
   integrity sha1-dfFmQrSA8YenEcgUFh/TpKdlWJg=
   dependencies:
     binary-extensions "^1.0.0"
+
+is-binary-path@~2.1.0:
+  version "2.1.0"
+  resolved "http://registry.npm.souche-inc.com/is-binary-path/download/is-binary-path-2.1.0.tgz#ea1f7f3b80f064236e83470f86c09c254fb45b09"
+  integrity sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk=
+  dependencies:
+    binary-extensions "^2.0.0"
+
+is-bluebird@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.souche-inc.com/is-bluebird/download/is-bluebird-1.0.2.tgz#096439060f4aa411abee19143a84d6a55346d6e2"
+  integrity sha1-CWQ5Bg9KpBGr7hkUOoTWpVNG1uI=
 
 is-buffer@^1.1.5:
   version "1.1.6"
@@ -3465,6 +4467,11 @@ is-fullwidth-code-point@^2.0.0:
   resolved "http://registry.npm.souche-inc.com/is-fullwidth-code-point/download/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
   integrity sha1-o7MKXE8ZkYMWeqq5O+764937ZU8=
 
+is-fullwidth-code-point@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.souche-inc.com/is-fullwidth-code-point/download/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
+  integrity sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0=
+
 is-generator-function@^1.0.7:
   version "1.0.7"
   resolved "http://registry.npm.souche-inc.com/is-generator-function/download/is-generator-function-1.0.7.tgz#d2132e529bb0000a7f80794d4bdf5cd5e5813522"
@@ -3482,7 +4489,7 @@ is-glob@^3.1.0:
   dependencies:
     is-extglob "^2.1.0"
 
-is-glob@^4.0.0:
+is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
   version "4.0.1"
   resolved "http://registry.npm.souche-inc.com/is-glob/download/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
   integrity sha1-dWfb6fL14kZ7x3q4PEopSCQHpdw=
@@ -3510,6 +4517,11 @@ is-number@^3.0.0:
   dependencies:
     kind-of "^3.0.2"
 
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "http://registry.npm.souche-inc.com/is-number/download/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
+
 is-obj@^1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.souche-inc.com/is-obj/download/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
@@ -3521,6 +4533,11 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   integrity sha1-LBY7P6+xtgbZ0Xko8FwqHDjgdnc=
   dependencies:
     isobject "^3.0.1"
+
+is-property@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.souche-inc.com/is-property/download/is-property-1.0.2.tgz#57fe1c4e48474edd65b09911f26b1cd4095dda84"
+  integrity sha1-V/4cTkhHTt1lsJkR8msc1Ald2oQ=
 
 is-regex@^1.0.4, is-regex@^1.1.0:
   version "1.1.1"
@@ -3534,6 +4551,11 @@ is-stream@^1.0.1, is-stream@^1.1.0:
   resolved "http://registry.npm.souche-inc.com/is-stream/download/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
 
+is-string@^1.0.5:
+  version "1.0.5"
+  resolved "http://registry.npm.souche-inc.com/is-string/download/is-string-1.0.5.tgz#40493ed198ef3ff477b8c7f92f644ec82a5cd3a6"
+  integrity sha1-QEk+0ZjvP/R3uMf5L2ROyCpc06Y=
+
 is-symbol@^1.0.2:
   version "1.0.3"
   resolved "http://registry.npm.souche-inc.com/is-symbol/download/is-symbol-1.0.3.tgz#38e1014b9e6329be0de9d24a414fd7441ec61937"
@@ -3541,7 +4563,7 @@ is-symbol@^1.0.2:
   dependencies:
     has-symbols "^1.0.1"
 
-is-type-of@^1.0.0, is-type-of@^1.2.0, is-type-of@^1.2.1:
+is-type-of@^1.0.0, is-type-of@^1.1.0, is-type-of@^1.2.0, is-type-of@^1.2.1:
   version "1.2.1"
   resolved "http://registry.npm.souche-inc.com/is-type-of/download/is-type-of-1.2.1.tgz#e263ec3857aceb4f28c47130ec78db09a920f8c5"
   integrity sha1-4mPsOFes608oxHEw7HjbCakg+MU=
@@ -3577,7 +4599,7 @@ isarray@0.0.1:
   resolved "http://registry.npm.souche-inc.com/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
   integrity sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
 
-isarray@1.0.0, isarray@~1.0.0:
+isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.souche-inc.com/isarray/download/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
@@ -3665,15 +4687,15 @@ jest-changed-files@^24.7.0:
     execa "^1.0.0"
     throat "^4.0.0"
 
+js-tokens@^3.0.0, js-tokens@^3.0.2:
+  version "3.0.2"
+  resolved "http://registry.npm.souche-inc.com/js-tokens/download/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
+  integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "http://registry.npm.souche-inc.com/js-tokens/download/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
-
-js-tokens@^3.0.2:
-  version "3.0.2"
-  resolved "http://registry.npm.souche-inc.com/js-tokens/download/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
-  integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
 js-yaml@3.13.1:
   version "3.13.1"
@@ -3682,6 +4704,19 @@ js-yaml@3.13.1:
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
+
+js-yaml@^3.13.1:
+  version "3.14.0"
+  resolved "http://registry.npm.souche-inc.com/js-yaml/download/js-yaml-3.14.0.tgz#a7a34170f26a21bb162424d8adacb4113a69e482"
+  integrity sha1-p6NBcPJqIbsWJCTYray0ETpp5II=
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+jsdoctypeparser@3.1.0:
+  version "3.1.0"
+  resolved "http://registry.npm.souche-inc.com/jsdoctypeparser/download/jsdoctypeparser-3.1.0.tgz#2f65f75165c4d9c632bb4fda13ed36b78321a43b"
+  integrity sha1-L2X3UWXE2cYyu0/aE+02t4MhpDs=
 
 jsesc@^1.3.0:
   version "1.3.0"
@@ -3703,6 +4738,16 @@ json-parse-better-errors@^1.0.1:
   resolved "http://registry.npm.souche-inc.com/json-parse-better-errors/download/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha1-u4Z8+zRQ5pEHwTHRxRS6s9yLyqk=
 
+json-schema-traverse@^0.4.1:
+  version "0.4.1"
+  resolved "http://registry.npm.souche-inc.com/json-schema-traverse/download/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
+  integrity sha1-afaofZUTq4u4/mO9sJecRI5oRmA=
+
+json-stable-stringify-without-jsonify@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.souche-inc.com/json-stable-stringify-without-jsonify/download/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
+  integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
+
 json-stringify-safe@^5.0.1:
   version "5.0.1"
   resolved "http://registry.npm.souche-inc.com/json-stringify-safe/download/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
@@ -3713,10 +4758,25 @@ json5@^0.5.1:
   resolved "http://registry.npm.souche-inc.com/json5/download/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
   integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
 
+json5@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.souche-inc.com/json5/download/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
+  integrity sha1-d5+wAYYE+oVOrL9iUhgNg1Q+Pb4=
+  dependencies:
+    minimist "^1.2.0"
+
 jsonp-body@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.souche-inc.com/jsonp-body/download/jsonp-body-1.0.0.tgz#e610fb6fcea79cf0cc9f27baa7b56377d4b0bb36"
   integrity sha1-5hD7b86nnPDMnye6p7Vjd9SwuzY=
+
+jsx-ast-utils@^2.4.1:
+  version "2.4.1"
+  resolved "http://registry.npm.souche-inc.com/jsx-ast-utils/download/jsx-ast-utils-2.4.1.tgz#1114a4c1209481db06c690c2b4f488cc665f657e"
+  integrity sha1-ERSkwSCUgdsGxpDCtPSIzGZfZX4=
+  dependencies:
+    array-includes "^3.1.1"
+    object.assign "^4.1.0"
 
 keygrip@~1.1.0:
   version "1.1.0"
@@ -3749,7 +4809,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "http://registry.npm.souche-inc.com/kind-of/download/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
-ko-sleep@^1.0.3:
+ko-sleep@^1.0.2, ko-sleep@^1.0.3:
   version "1.0.3"
   resolved "http://registry.npm.souche-inc.com/ko-sleep/download/ko-sleep-1.0.3.tgz#28a2a0a1485e8b7f415ff488dee17d24788ab082"
   integrity sha1-KKKgoUhei39BX/SI3uF9JHiKsII=
@@ -3871,6 +4931,18 @@ koa@^2.7.0:
     type-is "^1.6.16"
     vary "^1.1.2"
 
+language-subtag-registry@~0.3.2:
+  version "0.3.20"
+  resolved "http://registry.npm.souche-inc.com/language-subtag-registry/download/language-subtag-registry-0.3.20.tgz#a00a37121894f224f763268e431c55556b0c0755"
+  integrity sha1-oAo3EhiU8iT3YyaOQxxVVWsMB1U=
+
+language-tags@^1.0.5:
+  version "1.0.5"
+  resolved "http://registry.npm.souche-inc.com/language-tags/download/language-tags-1.0.5.tgz#d321dbc4da30ba8bf3024e040fa5c14661f9193a"
+  integrity sha1-0yHbxNowuovzAk4ED6XBRmH5GTo=
+  dependencies:
+    language-subtag-registry "~0.3.2"
+
 lcid@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.souche-inc.com/lcid/download/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
@@ -3885,7 +4957,7 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
-levn@~0.3.0:
+levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
   resolved "http://registry.npm.souche-inc.com/levn/download/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
   integrity sha1-OwmSTt+fCDwEkP3UwLxEIeBHZO4=
@@ -3904,6 +4976,16 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
+load-json-file@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.souche-inc.com/load-json-file/download/load-json-file-2.0.0.tgz#7947e42149af80d696cbf797bcaabcfe1fe29ca8"
+  integrity sha1-eUfkIUmvgNaWy/eXvKq8/h/inKg=
+  dependencies:
+    graceful-fs "^4.1.2"
+    parse-json "^2.2.0"
+    pify "^2.0.0"
+    strip-bom "^3.0.0"
+
 load-json-file@^4.0.0:
   version "4.0.0"
   resolved "http://registry.npm.souche-inc.com/load-json-file/download/load-json-file-4.0.0.tgz#2f5f45ab91e33216234fd53adab668eb4ec0993b"
@@ -3913,6 +4995,14 @@ load-json-file@^4.0.0:
     parse-json "^4.0.0"
     pify "^3.0.0"
     strip-bom "^3.0.0"
+
+locate-path@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.souche-inc.com/locate-path/download/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
+  integrity sha1-K1aLJl7slExtnA3pw9u7ygNUzY4=
+  dependencies:
+    p-locate "^2.0.0"
+    path-exists "^3.0.0"
 
 locate-path@^3.0.0:
   version "3.0.0"
@@ -3927,7 +5017,7 @@ lodash.flattendeep@^4.4.0:
   resolved "http://registry.npm.souche-inc.com/lodash.flattendeep/download/lodash.flattendeep-4.4.0.tgz#fb030917f86a3134e5bc9bec0d69e0013ddfedb2"
   integrity sha1-+wMJF/hqMTTlvJvsDWngAT3f7bI=
 
-lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4, lodash@^4.2.0:
   version "4.17.19"
   resolved "http://registry.npm.souche-inc.com/lodash/download/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha1-5I3e2+MLMyF4PFtDAfvTU7weSks=
@@ -3944,7 +5034,7 @@ long@^4.0.0:
   resolved "http://registry.npm.souche-inc.com/long/download/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
   integrity sha1-mntxz7fTYaGU6lVSQckvdGjVvyg=
 
-loose-envify@^1.0.0:
+loose-envify@^1.0.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "http://registry.npm.souche-inc.com/loose-envify/download/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -3963,7 +5053,7 @@ lower-case@^1.1.0, lower-case@^1.1.1, lower-case@^1.1.2:
   resolved "http://registry.npm.souche-inc.com/lower-case/download/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
 
-lru-cache@^4.0.1:
+lru-cache@^4.0.1, lru-cache@^4.1.3:
   version "4.1.5"
   resolved "http://registry.npm.souche-inc.com/lru-cache/download/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
   integrity sha1-i75Q6oW+1ZvJ4z3KuCNe6bz0Q80=
@@ -4043,6 +5133,11 @@ mem@^4.0.0:
     mimic-fn "^2.0.0"
     p-is-promise "^2.0.0"
 
+merge-descriptors@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.souche-inc.com/merge-descriptors/download/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
+  integrity sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
+
 merge-estraverse-visitors@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.souche-inc.com/merge-estraverse-visitors/download/merge-estraverse-visitors-1.0.0.tgz#eb968338b5ded5ceed82cec0307decba2d8ea994"
@@ -4062,7 +5157,7 @@ merge2@^1.2.3:
   resolved "http://registry.npm.souche-inc.com/merge2/download/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4=
 
-methods@^1.0.1, methods@^1.1.2:
+methods@^1.0.1, methods@^1.1.1, methods@^1.1.2:
   version "1.1.2"
   resolved "http://registry.npm.souche-inc.com/methods/download/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
@@ -4091,19 +5186,19 @@ mime-db@1.44.0, "mime-db@>= 1.43.0 < 2":
   resolved "http://registry.npm.souche-inc.com/mime-db/download/mime-db-1.44.0.tgz#fa11c5eb0aca1334b4233cb4d52f10c5a6272f92"
   integrity sha1-+hHF6wrKEzS0Izy01S8QxaYnL5I=
 
-mime-types@^2.1.18, mime-types@^2.1.8, mime-types@~2.1.24:
+mime-types@^2.1.12, mime-types@^2.1.18, mime-types@^2.1.8, mime-types@~2.1.24:
   version "2.1.27"
   resolved "http://registry.npm.souche-inc.com/mime-types/download/mime-types-2.1.27.tgz#47949f98e279ea53119f5722e0f34e529bec009f"
   integrity sha1-R5SfmOJ56lMRn1ci4PNOUpvsAJ8=
   dependencies:
     mime-db "1.44.0"
 
-mime@^1.3.4:
+mime@^1.3.4, mime@^1.4.1:
   version "1.6.0"
   resolved "http://registry.npm.souche-inc.com/mime/download/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
 
-mimic-fn@^2.0.0:
+mimic-fn@^2.0.0, mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.souche-inc.com/mimic-fn/download/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
@@ -4142,6 +5237,16 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+mm@^2.5.0:
+  version "2.5.0"
+  resolved "http://registry.npm.souche-inc.com/mm/download/mm-2.5.0.tgz#dfb993762c1468b591c4c4fcd47dff45ed01378a"
+  integrity sha1-37mTdiwUaLWRxMT81H3/Re0BN4o=
+  dependencies:
+    is-type-of "^1.0.0"
+    ko-sleep "^1.0.2"
+    muk-prop "^1.0.0"
+    thenify "^3.2.1"
+
 mocha@^6.0.2:
   version "6.2.3"
   resolved "http://registry.npm.souche-inc.com/mocha/download/mocha-6.2.3.tgz#e648432181d8b99393410212664450a4c1e31912"
@@ -4171,14 +5276,14 @@ mocha@^6.0.2:
     yargs-parser "13.1.2"
     yargs-unparser "1.6.0"
 
-moment-timezone@^0.5.31:
+moment-timezone@^0.5.21, moment-timezone@^0.5.31:
   version "0.5.31"
   resolved "http://registry.npm.souche-inc.com/moment-timezone/download/moment-timezone-0.5.31.tgz#9c40d8c5026f0c7ab46eda3d63e49c155148de05"
   integrity sha1-nEDYxQJvDHq0bto9Y+ScFVFI3gU=
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.22.2, moment@^2.24.0:
+"moment@>= 2.9.0", moment@^2.22.2, moment@^2.23.0, moment@^2.24.0:
   version "2.27.0"
   resolved "http://registry.npm.souche-inc.com/moment/download/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
   integrity sha1-i/9OPiaiNiIN/j423nVrbrqgEF0=
@@ -4197,6 +5302,11 @@ ms@^2.0.0, ms@^2.1.1:
   version "2.1.2"
   resolved "http://registry.npm.souche-inc.com/ms/download/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
+
+muk-prop@^1.0.0:
+  version "1.2.1"
+  resolved "http://registry.npm.souche-inc.com/muk-prop/download/muk-prop-1.2.1.tgz#40fa3d6e93553b2016a9fb77d8918568c57ae14d"
+  integrity sha1-QPo9bpNVOyAWqft32JGFaMV64U0=
 
 multi-stage-sourcemap@^0.2.1:
   version "0.2.1"
@@ -4220,6 +5330,26 @@ mustache@^2.3.0:
   resolved "http://registry.npm.souche-inc.com/mustache/download/mustache-2.3.2.tgz#a6d4d9c3f91d13359ab889a812954f9230a3d0c5"
   integrity sha1-ptTZw/kdEzWauImoEpVPkjCj0MU=
 
+mute-stream@0.0.8:
+  version "0.0.8"
+  resolved "http://registry.npm.souche-inc.com/mute-stream/download/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
+  integrity sha1-FjDEKyJR/4HiooPelqVJfqkuXg0=
+
+mysql2@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.npm.souche-inc.com/mysql2/download/mysql2-2.1.0.tgz#55ecfd4353114c148cc4c253192dbbfd000e6642"
+  integrity sha1-Vez9Q1MRTBSMxMJTGS27/QAOZkI=
+  dependencies:
+    cardinal "^2.1.1"
+    denque "^1.4.1"
+    generate-function "^2.3.1"
+    iconv-lite "^0.5.0"
+    long "^4.0.0"
+    lru-cache "^5.1.1"
+    named-placeholders "^1.1.2"
+    seq-queue "^0.0.5"
+    sqlstring "^2.3.1"
+
 mz-modules@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.souche-inc.com/mz-modules/download/mz-modules-2.1.0.tgz#7f529877afd0d42f409a7463b96986d61cfbcf96"
@@ -4239,6 +5369,13 @@ mz@^2.7.0:
     any-promise "^1.0.0"
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
+
+named-placeholders@^1.1.2:
+  version "1.1.2"
+  resolved "http://registry.npm.souche-inc.com/named-placeholders/download/named-placeholders-1.1.2.tgz#ceb1fbff50b6b33492b5cf214ccf5e39cef3d0e8"
+  integrity sha1-zrH7/1C2szSStc8hTM9eOc7z0Og=
+  dependencies:
+    lru-cache "^4.1.3"
 
 nan@^2.12.1:
   version "2.14.1"
@@ -4266,6 +5403,11 @@ nanomatch@^1.2.9:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+natural-compare@^1.4.0:
+  version "1.4.0"
+  resolved "http://registry.npm.souche-inc.com/natural-compare/download/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
+  integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
 ndir@^0.1.5:
   version "0.1.5"
@@ -4329,7 +5471,7 @@ normalize-path@^2.1.1:
   dependencies:
     remove-trailing-separator "^1.0.1"
 
-normalize-path@^3.0.0:
+normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.souche-inc.com/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
@@ -4345,6 +5487,17 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.souche-inc.com/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+
+nunjucks@^3.1.3:
+  version "3.2.2"
+  resolved "http://registry.npm.souche-inc.com/nunjucks/download/nunjucks-3.2.2.tgz#45f915fef0f89fbab38c489dc85025f64859f466"
+  integrity sha1-RfkV/vD4n7qzjEidyFAl9khZ9GY=
+  dependencies:
+    a-sync-waterfall "^1.0.0"
+    asap "^2.0.3"
+    commander "^5.1.0"
+  optionalDependencies:
+    chokidar "^3.3.0"
 
 nyc@^13.3.0:
   version "13.3.0"
@@ -4376,7 +5529,7 @@ nyc@^13.3.0:
     yargs "^12.0.5"
     yargs-parser "^11.1.1"
 
-object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "http://registry.npm.souche-inc.com/object-assign/download/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -4425,6 +5578,25 @@ object.assign@4.1.0, object.assign@^4.1.0:
     has-symbols "^1.0.0"
     object-keys "^1.0.11"
 
+object.entries@^1.1.2:
+  version "1.1.2"
+  resolved "http://registry.npm.souche-inc.com/object.entries/download/object.entries-1.1.2.tgz#bc73f00acb6b6bb16c203434b10f9a7e797d3add"
+  integrity sha1-vHPwCstra7FsIDQ0sQ+afnl9Ot0=
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.5"
+    has "^1.0.3"
+
+object.fromentries@^2.0.2:
+  version "2.0.2"
+  resolved "http://registry.npm.souche-inc.com/object.fromentries/download/object.fromentries-2.0.2.tgz#4a09c9b9bb3843dd0f89acdb517a794d4f355ac9"
+  integrity sha1-SgnJubs4Q90PiazbUXp5TU81Wsk=
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0-next.1"
+    function-bind "^1.1.1"
+    has "^1.0.3"
+
 object.getownpropertydescriptors@^2.0.3:
   version "2.1.0"
   resolved "http://registry.npm.souche-inc.com/object.getownpropertydescriptors/download/object.getownpropertydescriptors-2.1.0.tgz#369bf1f9592d8ab89d712dced5cb81c7c5352649"
@@ -4440,6 +5612,16 @@ object.pick@^1.3.0:
   dependencies:
     isobject "^3.0.1"
 
+object.values@^1.1.1:
+  version "1.1.1"
+  resolved "http://registry.npm.souche-inc.com/object.values/download/object.values-1.1.1.tgz#68a99ecde356b7e9295a3c5e0ce31dc8c953de5e"
+  integrity sha1-aKmezeNWt+kpWjxeDOMdyMlT3l4=
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0-next.1"
+    function-bind "^1.1.1"
+    has "^1.0.3"
+
 on-finished@^2.3.0:
   version "2.3.0"
   resolved "http://registry.npm.souche-inc.com/on-finished/download/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -4454,12 +5636,19 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
+onetime@^5.1.0:
+  version "5.1.2"
+  resolved "http://registry.npm.souche-inc.com/onetime/download/onetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
+  integrity sha1-0Oluu1awdHbfHdnEgG5SN5hcpF4=
+  dependencies:
+    mimic-fn "^2.1.0"
+
 only@~0.0.2:
   version "0.0.2"
   resolved "http://registry.npm.souche-inc.com/only/download/only-0.0.2.tgz#2afde84d03e50b9a8edc444e30610a70295edfb4"
   integrity sha1-Kv3oTQPlC5qO3EROMGEKcCle37Q=
 
-optionator@^0.8.1:
+optionator@^0.8.1, optionator@^0.8.3:
   version "0.8.3"
   resolved "http://registry.npm.souche-inc.com/optionator/download/optionator-0.8.3.tgz#84fa1d036fe9d3c7e21d99884b601167ec8fb495"
   integrity sha1-hPodA2/p08fiHZmIS2ARZ+yPtJU=
@@ -4500,7 +5689,7 @@ os-name@~1.0.3:
     osx-release "^1.0.0"
     win-release "^1.0.0"
 
-os-tmpdir@^1.0.1:
+os-tmpdir@^1.0.1, os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.souche-inc.com/os-tmpdir/download/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
@@ -4527,6 +5716,13 @@ p-is-promise@^2.0.0:
   resolved "http://registry.npm.souche-inc.com/p-is-promise/download/p-is-promise-2.1.0.tgz#918cebaea248a62cf7ffab8e3bca8c5f882fc42e"
   integrity sha1-kYzrrqJIpiz3/6uOO8qMX4gvxC4=
 
+p-limit@^1.1.0:
+  version "1.3.0"
+  resolved "http://registry.npm.souche-inc.com/p-limit/download/p-limit-1.3.0.tgz#b86bd5f0c25690911c7590fcbfc2010d54b3ccb8"
+  integrity sha1-uGvV8MJWkJEcdZD8v8IBDVSzzLg=
+  dependencies:
+    p-try "^1.0.0"
+
 p-limit@^2.0.0:
   version "2.3.0"
   resolved "http://registry.npm.souche-inc.com/p-limit/download/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
@@ -4534,12 +5730,24 @@ p-limit@^2.0.0:
   dependencies:
     p-try "^2.0.0"
 
+p-locate@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.souche-inc.com/p-locate/download/p-locate-2.0.0.tgz#20a0103b222a70c8fd39cc2e580680f3dde5ec43"
+  integrity sha1-IKAQOyIqcMj9OcwuWAaA893l7EM=
+  dependencies:
+    p-limit "^1.1.0"
+
 p-locate@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.souche-inc.com/p-locate/download/p-locate-3.0.0.tgz#322d69a05c0264b25997d9f40cd8a891ab0064a4"
   integrity sha1-Mi1poFwCZLJZl9n0DNiokasAZKQ=
   dependencies:
     p-limit "^2.0.0"
+
+p-try@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.souche-inc.com/p-try/download/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
+  integrity sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M=
 
 p-try@^2.0.0:
   version "2.2.0"
@@ -4587,6 +5795,13 @@ param-case@^2.1.0:
   integrity sha1-35T9jPZTHs915r75oIWPvHK+Ikc=
   dependencies:
     no-case "^2.2.0"
+
+parent-module@^1.0.0:
+  version "1.0.1"
+  resolved "http://registry.npm.souche-inc.com/parent-module/download/parent-module-1.0.1.tgz#691d2709e78c79fae3a156622452d00762caaaa2"
+  integrity sha1-aR0nCeeMefrjoVZiJFLQB2LKqqI=
+  dependencies:
+    callsites "^3.0.0"
 
 parse-json@^2.2.0:
   version "2.2.0"
@@ -4676,6 +5891,13 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+path-type@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.souche-inc.com/path-type/download/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
+  integrity sha1-8BLMuEFbcJb8LaoQVMPXI4lZTHM=
+  dependencies:
+    pify "^2.0.0"
+
 path-type@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.souche-inc.com/path-type/download/path-type-3.0.0.tgz#cef31dc8e0a1a3bb0d105c0cd97cf3bf47f4e36f"
@@ -4689,6 +5911,11 @@ pause-stream@0.0.11, pause-stream@~0.0.11:
   integrity sha1-/lo0sMvOErWqaitAPuLnO2AvFEU=
   dependencies:
     through "~2.3"
+
+picomatch@^2.0.4, picomatch@^2.2.1:
+  version "2.2.2"
+  resolved "http://registry.npm.souche-inc.com/picomatch/download/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
+  integrity sha1-IfMz6ba46v8CRo9RRupAbTRfTa0=
 
 pify@^2.0.0:
   version "2.3.0"
@@ -4716,6 +5943,13 @@ pinkie@^2.0.0:
   version "2.0.4"
   resolved "http://registry.npm.souche-inc.com/pinkie/download/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
+
+pkg-dir@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.souche-inc.com/pkg-dir/download/pkg-dir-2.0.0.tgz#f6d5d1109e19d63edf428e0bd57e12777615334b"
+  integrity sha1-9tXREJ4Z1j7fQo4L1X4Sd3YVM0s=
+  dependencies:
+    find-up "^2.1.0"
 
 pkg-dir@^3.0.0:
   version "3.0.0"
@@ -4853,6 +6087,20 @@ process-nextick-args@~2.0.0:
   resolved "http://registry.npm.souche-inc.com/process-nextick-args/download/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha1-eCDZsWEgzFXKmud5JoCufbptf+I=
 
+progress@^2.0.0:
+  version "2.0.3"
+  resolved "http://registry.npm.souche-inc.com/progress/download/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
+  integrity sha1-foz42PW48jnBvGi+tOt4Vn1XLvg=
+
+prop-types@^15.7.2:
+  version "15.7.2"
+  resolved "http://registry.npm.souche-inc.com/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 proxy-agent@^3.1.0:
   version "3.1.1"
   resolved "http://registry.npm.souche-inc.com/proxy-agent/download/proxy-agent-3.1.1.tgz#7e04e06bf36afa624a1540be247b47c970bd3014"
@@ -4884,6 +6132,14 @@ pseudomap@^1.0.2:
   resolved "http://registry.npm.souche-inc.com/pseudomap/download/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
+pump@^2.0.0:
+  version "2.0.1"
+  resolved "http://registry.npm.souche-inc.com/pump/download/pump-2.0.1.tgz#12399add6e4cf7526d973cbc8b5ce2e2908b3909"
+  integrity sha1-Ejma3W5M91Jtlzy8i1zi4pCLOQk=
+  dependencies:
+    end-of-stream "^1.1.0"
+    once "^1.3.1"
+
 pump@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.souche-inc.com/pump/download/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
@@ -4892,7 +6148,21 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-qs@^6.4.0, qs@^6.5.2:
+pumpify@^1.3.5:
+  version "1.5.1"
+  resolved "http://registry.npm.souche-inc.com/pumpify/download/pumpify-1.5.1.tgz#36513be246ab27570b1a374a5ce278bfd74370ce"
+  integrity sha1-NlE74karJ1cLGjdKXOJ4v9dDcM4=
+  dependencies:
+    duplexify "^3.6.0"
+    inherits "^2.0.3"
+    pump "^2.0.0"
+
+punycode@^2.1.0:
+  version "2.1.1"
+  resolved "http://registry.npm.souche-inc.com/punycode/download/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
+  integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
+
+qs@^6.4.0, qs@^6.5.1, qs@^6.5.2:
   version "6.9.4"
   resolved "http://registry.npm.souche-inc.com/qs/download/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
   integrity sha1-kJCykNH5FyjTwi5UhDykSupatoc=
@@ -4912,6 +6182,11 @@ raw-body@^2.2.0, raw-body@^2.3.3:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-is@^16.8.1:
+  version "16.13.1"
+  resolved "http://registry.npm.souche-inc.com/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
 read-pkg-up@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.souche-inc.com/read-pkg-up/download/read-pkg-up-1.0.1.tgz#9d63c13276c065918d57f002a57f40a1b643fb02"
@@ -4919,6 +6194,14 @@ read-pkg-up@^1.0.1:
   dependencies:
     find-up "^1.0.0"
     read-pkg "^1.0.0"
+
+read-pkg-up@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.souche-inc.com/read-pkg-up/download/read-pkg-up-2.0.0.tgz#6b72a8048984e0c41e79510fd5e9fa99b3b549be"
+  integrity sha1-a3KoBImE4MQeeVEP1en6mbO1Sb4=
+  dependencies:
+    find-up "^2.0.0"
+    read-pkg "^2.0.0"
 
 read-pkg-up@^4.0.0:
   version "4.0.0"
@@ -4936,6 +6219,15 @@ read-pkg@^1.0.0:
     load-json-file "^1.0.0"
     normalize-package-data "^2.3.2"
     path-type "^1.0.0"
+
+read-pkg@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.souche-inc.com/read-pkg/download/read-pkg-2.0.0.tgz#8ef1c0623c6a6db0dc6713c4bfac46332b2368f8"
+  integrity sha1-jvHAYjxqbbDcZxPEv6xGMysjaPg=
+  dependencies:
+    load-json-file "^2.0.0"
+    normalize-package-data "^2.3.2"
+    path-type "^2.0.0"
 
 read-pkg@^3.0.0:
   version "3.0.0"
@@ -4956,7 +6248,7 @@ readable-stream@1.1.x:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@2, readable-stream@^2.0.2, readable-stream@~2.3.6:
+readable-stream@2, readable-stream@^2.0.0, readable-stream@^2.0.2, readable-stream@^2.3.5, readable-stream@~2.3.6:
   version "2.3.7"
   resolved "http://registry.npm.souche-inc.com/readable-stream/download/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
   integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
@@ -4978,6 +6270,13 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
+readdirp@~3.4.0:
+  version "3.4.0"
+  resolved "http://registry.npm.souche-inc.com/readdirp/download/readdirp-3.4.0.tgz#9fdccdf9e9155805449221ac645e8303ab5b9ada"
+  integrity sha1-n9zN+ekVWAVEkiGsZF6DA6tbmto=
+  dependencies:
+    picomatch "^2.2.1"
+
 ready-callback@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.souche-inc.com/ready-callback/download/ready-callback-2.1.0.tgz#e382a9e33a568b8d771e04ef4ef0eb02d3dfa7e0"
@@ -4988,6 +6287,13 @@ ready-callback@^2.1.0:
     once "^1.4.0"
     uuid "^3.0.1"
 
+redeyed@~2.1.0:
+  version "2.1.1"
+  resolved "http://registry.npm.souche-inc.com/redeyed/download/redeyed-2.1.1.tgz#8984b5815d99cb220469c99eeeffe38913e6cc0b"
+  integrity sha1-iYS1gV2ZyyIEacme7v/jiRPmzAs=
+  dependencies:
+    esprima "~4.0.0"
+
 regenerate@^1.2.1:
   version "1.4.1"
   resolved "http://registry.npm.souche-inc.com/regenerate/download/regenerate-1.4.1.tgz#cad92ad8e6b591773485fbe05a485caf4f457e6f"
@@ -4997,6 +6303,11 @@ regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "http://registry.npm.souche-inc.com/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
+
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "http://registry.npm.souche-inc.com/regenerator-runtime/download/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha1-ysLazIoepnX+qrrriugziYrkb1U=
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
@@ -5015,13 +6326,23 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-regexp.prototype.flags@^1.2.0:
+regexp.prototype.flags@^1.2.0, regexp.prototype.flags@^1.3.0:
   version "1.3.0"
   resolved "http://registry.npm.souche-inc.com/regexp.prototype.flags/download/regexp.prototype.flags-1.3.0.tgz#7aba89b3c13a64509dabcf3ca8d9fbb9bdf5cb75"
   integrity sha1-erqJs8E6ZFCdq888qNn7ub31y3U=
   dependencies:
     define-properties "^1.1.3"
     es-abstract "^1.17.0-next.1"
+
+regexpp@^2.0.1:
+  version "2.0.1"
+  resolved "http://registry.npm.souche-inc.com/regexpp/download/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
+  integrity sha1-jRnTHPYySCtYkEn4KB+T28uk0H8=
+
+regexpp@^3.0.0:
+  version "3.1.0"
+  resolved "http://registry.npm.souche-inc.com/regexpp/download/regexpp-3.1.0.tgz#206d0ad0a5648cffbdb8ae46438f3dc51c9f78e2"
+  integrity sha1-IG0K0KVkjP+9uK5GQ489xRyfeOI=
 
 regexpu-core@^2.0.0:
   version "2.0.0"
@@ -5106,17 +6427,39 @@ resolve-url@^0.2.1:
   resolved "http://registry.npm.souche-inc.com/resolve-url/download/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.10.0:
+resolve@^1.10.0, resolve@^1.13.1, resolve@^1.17.0:
   version "1.17.0"
   resolved "http://registry.npm.souche-inc.com/resolve/download/resolve-1.17.0.tgz#b25941b54968231cc2d1bb76a79cb7f2c0bf8444"
   integrity sha1-sllBtUloIxzC0bt2p5y38sC/hEQ=
   dependencies:
     path-parse "^1.0.6"
 
+restore-cursor@^3.1.0:
+  version "3.1.0"
+  resolved "http://registry.npm.souche-inc.com/restore-cursor/download/restore-cursor-3.1.0.tgz#39f67c54b3a7a58cea5236d95cf0034239631f7e"
+  integrity sha1-OfZ8VLOnpYzqUjbZXPADQjljH34=
+  dependencies:
+    onetime "^5.1.0"
+    signal-exit "^3.0.2"
+
 ret@~0.1.10:
   version "0.1.15"
   resolved "http://registry.npm.souche-inc.com/ret/download/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha1-uKSCXVvbH8P29Twrwz+BOIaBx7w=
+
+retry-as-promised@^3.2.0:
+  version "3.2.0"
+  resolved "http://registry.npm.souche-inc.com/retry-as-promised/download/retry-as-promised-3.2.0.tgz#769f63d536bec4783549db0777cb56dadd9d8543"
+  integrity sha1-dp9j1Ta+xHg1SdsHd8tW2t2dhUM=
+  dependencies:
+    any-promise "^1.3.0"
+
+rimraf@2.6.3:
+  version "2.6.3"
+  resolved "http://registry.npm.souche-inc.com/rimraf/download/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
+  integrity sha1-stEE/g2Psnz54KHNqCYt04M8bKs=
+  dependencies:
+    glob "^7.1.3"
 
 rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3:
   version "2.7.1"
@@ -5129,6 +6472,26 @@ rndm@1.2.0:
   version "1.2.0"
   resolved "http://registry.npm.souche-inc.com/rndm/download/rndm-1.2.0.tgz#f33fe9cfb52bbfd520aa18323bc65db110a1b76c"
   integrity sha1-8z/pz7Urv9UgqhgyO8ZdsRCht2w=
+
+run-async@^2.4.0:
+  version "2.4.1"
+  resolved "http://registry.npm.souche-inc.com/run-async/download/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
+  integrity sha1-hEDsz5nqPnC9QJ1JqriOEMGJpFU=
+
+runscript@^1.3.0:
+  version "1.5.0"
+  resolved "http://registry.npm.souche-inc.com/runscript/download/runscript-1.5.0.tgz#29127e47c0c5d60b36472b9df650f29c561a82fe"
+  integrity sha1-KRJ+R8DF1gs2Ryud9lDynFYagv4=
+  dependencies:
+    debug "^2.6.8"
+    is-type-of "^1.1.0"
+
+rxjs@^6.6.0:
+  version "6.6.2"
+  resolved "http://registry.npm.souche-inc.com/rxjs/download/rxjs-6.6.2.tgz#8096a7ac03f2cc4fe5860ef6e572810d9e01c0d2"
+  integrity sha1-gJanrAPyzE/lhg725XKBDZ4BwNI=
+  dependencies:
+    tslib "^1.9.0"
 
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
@@ -5179,10 +6542,15 @@ sdk-base@^3.1.1, sdk-base@^3.5.0, sdk-base@^3.5.1:
   resolved "http://registry.npm.souche-inc.com/semver/download/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=
 
-semver@^6.0.0:
+semver@^6.0.0, semver@^6.1.2, semver@^6.3.0:
   version "6.3.0"
   resolved "http://registry.npm.souche-inc.com/semver/download/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0=
+
+semver@^7.3.2:
+  version "7.3.2"
+  resolved "http://registry.npm.souche-inc.com/semver/download/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
+  integrity sha1-YElisFK4HtB4aq6EOJ/7pw/9OTg=
 
 sendmessage@^1.1.0:
   version "1.1.0"
@@ -5196,6 +6564,37 @@ sentence-case@^2.1.0:
   dependencies:
     no-case "^2.2.0"
     upper-case-first "^1.1.2"
+
+seq-queue@^0.0.5:
+  version "0.0.5"
+  resolved "http://registry.npm.souche-inc.com/seq-queue/download/seq-queue-0.0.5.tgz#d56812e1c017a6e4e7c3e3a37a1da6d78dd3c93e"
+  integrity sha1-1WgS4cAXpuTnw+Ojeh2m143TyT4=
+
+sequelize-pool@^2.3.0:
+  version "2.3.0"
+  resolved "http://registry.npm.souche-inc.com/sequelize-pool/download/sequelize-pool-2.3.0.tgz#64f1fe8744228172c474f530604b6133be64993d"
+  integrity sha1-ZPH+h0QigXLEdPUwYEthM75kmT0=
+
+sequelize@^5.0.0:
+  version "5.22.3"
+  resolved "http://registry.npm.souche-inc.com/sequelize/download/sequelize-5.22.3.tgz#7e7a92ddd355d883c9eb11cdb106d874d0d2636f"
+  integrity sha1-fnqS3dNV2IPJ6xHNsQbYdNDSY28=
+  dependencies:
+    bluebird "^3.5.0"
+    cls-bluebird "^2.1.0"
+    debug "^4.1.1"
+    dottie "^2.0.0"
+    inflection "1.12.0"
+    lodash "^4.17.15"
+    moment "^2.24.0"
+    moment-timezone "^0.5.21"
+    retry-as-promised "^3.2.0"
+    semver "^6.3.0"
+    sequelize-pool "^2.3.0"
+    toposort-class "^1.0.1"
+    uuid "^3.3.3"
+    validator "^10.11.0"
+    wkx "^0.4.8"
 
 serialize-json@^1.0.3:
   version "1.0.3"
@@ -5243,10 +6642,23 @@ shebang-regex@^1.0.0:
   resolved "http://registry.npm.souche-inc.com/shebang-regex/download/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
+shimmer@^1.1.0:
+  version "1.2.1"
+  resolved "http://registry.npm.souche-inc.com/shimmer/download/shimmer-1.2.1.tgz#610859f7de327b587efebf501fb43117f9aff337"
+  integrity sha1-YQhZ994ye1h+/r9QH7QxF/mv8zc=
+
 should-send-same-site-none@^2.0.2:
   version "2.0.5"
   resolved "http://registry.npm.souche-inc.com/should-send-same-site-none/download/should-send-same-site-none-2.0.5.tgz#f710116f7d922ef17a90ecdeb864932e68eff588"
   integrity sha1-9xARb32SLvF6kOzeuGSTLmjv9Yg=
+
+side-channel@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.souche-inc.com/side-channel/download/side-channel-1.0.2.tgz#df5d1abadb4e4bf4af1cd8852bf132d2f7876947"
+  integrity sha1-310auttOS/SvHNiFK/Ey0veHaUc=
+  dependencies:
+    es-abstract "^1.17.0-next.1"
+    object-inspect "^1.7.0"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
@@ -5262,6 +6674,15 @@ slash@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.souche-inc.com/slash/download/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
   integrity sha1-3lUoUaF1nfOo8gZTVEL17E3eq0Q=
+
+slice-ansi@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.npm.souche-inc.com/slice-ansi/download/slice-ansi-2.1.0.tgz#cacd7693461a637a5788d92a7dd4fba068e81636"
+  integrity sha1-ys12k0YaY3pXiNkqfdT7oGjoFjY=
+  dependencies:
+    ansi-styles "^3.2.0"
+    astral-regex "^1.0.0"
+    is-fullwidth-code-point "^2.0.0"
 
 smart-buffer@^4.1.0:
   version "4.1.0"
@@ -5414,6 +6835,13 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
+split2@^2.1.0:
+  version "2.2.0"
+  resolved "http://registry.npm.souche-inc.com/split2/download/split2-2.2.0.tgz#186b2575bcf83e85b7d18465756238ee4ee42493"
+  integrity sha1-GGsldbz4PoW30YRldWI47k7kJJM=
+  dependencies:
+    through2 "^2.0.2"
+
 split@0.3:
   version "0.3.3"
   resolved "http://registry.npm.souche-inc.com/split/download/split-0.3.3.tgz#cd0eea5e63a211dfff7eb0f091c4133e2d0dd28f"
@@ -5425,6 +6853,11 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "http://registry.npm.souche-inc.com/sprintf-js/download/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
+
+sqlstring@^2.3.1:
+  version "2.3.2"
+  resolved "http://registry.npm.souche-inc.com/sqlstring/download/sqlstring-2.3.2.tgz#cdae7169389a1375b18e885f2e60b3e460809514"
+  integrity sha1-za5xaTiaE3WxjohfLmCz5GCAlRQ=
 
 stack-trace@^0.0.10:
   version "0.0.10"
@@ -5450,6 +6883,11 @@ stream-combiner@~0.0.4:
   integrity sha1-TV5DPBhSYd3mI8o/RMWGvPXErRQ=
   dependencies:
     duplexer "~0.1.1"
+
+stream-shift@^1.0.0:
+  version "1.0.1"
+  resolved "http://registry.npm.souche-inc.com/stream-shift/download/stream-shift-1.0.1.tgz#d7088281559ab2778424279b0877da3c392d5a3d"
+  integrity sha1-1wiCgVWasneEJCebCHfaPDktWj0=
 
 stream-slice@^0.1.2:
   version "0.1.2"
@@ -5491,6 +6929,27 @@ string-width@^3.0.0, string-width@^3.1.0:
     emoji-regex "^7.0.1"
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
+
+string-width@^4.1.0:
+  version "4.2.0"
+  resolved "http://registry.npm.souche-inc.com/string-width/download/string-width-4.2.0.tgz#952182c46cc7b2c313d1596e623992bd163b72b5"
+  integrity sha1-lSGCxGzHssMT0VluYjmSvRY7crU=
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.0"
+
+string.prototype.matchall@^4.0.2:
+  version "4.0.2"
+  resolved "http://registry.npm.souche-inc.com/string.prototype.matchall/download/string.prototype.matchall-4.0.2.tgz#48bb510326fb9fdeb6a33ceaa81a6ea04ef7648e"
+  integrity sha1-SLtRAyb7n962ozzqqBpuoE73ZI4=
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0"
+    has-symbols "^1.0.1"
+    internal-slot "^1.0.2"
+    regexp.prototype.flags "^1.3.0"
+    side-channel "^1.0.2"
 
 string.prototype.trimend@^1.0.1:
   version "1.0.1"
@@ -5550,6 +7009,13 @@ strip-ansi@^5.0.0, strip-ansi@^5.1.0, strip-ansi@^5.2.0:
   dependencies:
     ansi-regex "^4.1.0"
 
+strip-ansi@^6.0.0:
+  version "6.0.0"
+  resolved "http://registry.npm.souche-inc.com/strip-ansi/download/strip-ansi-6.0.0.tgz#0b1571dd7669ccd4f3e06e14ef1eed26225ae532"
+  integrity sha1-CxVx3XZpzNTz4G4U7x7tJiJa5TI=
+  dependencies:
+    ansi-regex "^5.0.0"
+
 strip-bom@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.souche-inc.com/strip-bom/download/strip-bom-2.0.0.tgz#6219a85616520491f35788bdbf1447a99c7e6b0e"
@@ -5571,6 +7037,35 @@ strip-json-comments@2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.souche-inc.com/strip-json-comments/download/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
+
+strip-json-comments@^3.0.1:
+  version "3.1.1"
+  resolved "http://registry.npm.souche-inc.com/strip-json-comments/download/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
+  integrity sha1-MfEoGzgyYwQ0gxwxDAHMzajL4AY=
+
+superagent@^3.8.3:
+  version "3.8.3"
+  resolved "http://registry.npm.souche-inc.com/superagent/download/superagent-3.8.3.tgz#460ea0dbdb7d5b11bc4f78deba565f86a178e128"
+  integrity sha1-Rg6g29t9WxG8T3jeulZfhqF44Sg=
+  dependencies:
+    component-emitter "^1.2.0"
+    cookiejar "^2.1.0"
+    debug "^3.1.0"
+    extend "^3.0.0"
+    form-data "^2.3.1"
+    formidable "^1.2.0"
+    methods "^1.1.1"
+    mime "^1.4.1"
+    qs "^6.5.1"
+    readable-stream "^2.3.5"
+
+supertest@^4.0.2:
+  version "4.0.2"
+  resolved "http://registry.npm.souche-inc.com/supertest/download/supertest-4.0.2.tgz#c2234dbdd6dc79b6f15b99c8d6577b90e4ce3f36"
+  integrity sha1-wiNNvdbcebbxW5nI1ld7kOTOPzY=
+  dependencies:
+    methods "^1.1.2"
+    superagent "^3.8.3"
 
 supports-color@6.0.0:
   version "6.0.0"
@@ -5598,6 +7093,13 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+supports-color@^7.1.0:
+  version "7.1.0"
+  resolved "http://registry.npm.souche-inc.com/supports-color/download/supports-color-7.1.0.tgz#68e32591df73e25ad1c4b49108a2ec507962bfd1"
+  integrity sha1-aOMlkd9z4lrRxLSRCKLsUHliv9E=
+  dependencies:
+    has-flag "^4.0.0"
+
 swap-case@^1.1.0:
   version "1.1.2"
   resolved "http://registry.npm.souche-inc.com/swap-case/download/swap-case-1.1.2.tgz#c39203a4587385fad3c850a0bd1bcafa081974e3"
@@ -5605,6 +7107,16 @@ swap-case@^1.1.0:
   dependencies:
     lower-case "^1.1.1"
     upper-case "^1.1.1"
+
+table@^5.2.3:
+  version "5.4.6"
+  resolved "http://registry.npm.souche-inc.com/table/download/table-5.4.6.tgz#1292d19500ce3f86053b05f0e8e7e4a3bb21079e"
+  integrity sha1-EpLRlQDOP4YFOwXw6Ofko7shB54=
+  dependencies:
+    ajv "^6.10.2"
+    lodash "^4.17.14"
+    slice-ansi "^2.1.0"
+    string-width "^3.0.0"
 
 tcp-base@^3.1.0:
   version "3.1.0"
@@ -5632,6 +7144,11 @@ test-exclude@^5.1.0:
     read-pkg-up "^4.0.0"
     require-main-filename "^2.0.0"
 
+text-table@^0.2.0:
+  version "0.2.0"
+  resolved "http://registry.npm.souche-inc.com/text-table/download/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
+  integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
 thenify-all@^1.0.0:
   version "1.6.0"
   resolved "http://registry.npm.souche-inc.com/thenify-all/download/thenify-all-1.6.0.tgz#1a1918d402d8fc3f98fbf234db0bcc8cc10e9726"
@@ -5639,7 +7156,7 @@ thenify-all@^1.0.0:
   dependencies:
     thenify ">= 3.1.0 < 4"
 
-"thenify@>= 3.1.0 < 4":
+"thenify@>= 3.1.0 < 4", thenify@^3.2.1:
   version "3.3.1"
   resolved "http://registry.npm.souche-inc.com/thenify/download/thenify-3.3.1.tgz#8932e686a4066038a016dd9e2ca46add9838a95f"
   integrity sha1-iTLmhqQGYDigFt2eLKRq3Zg4qV8=
@@ -5651,7 +7168,7 @@ throat@^4.0.0:
   resolved "http://registry.npm.souche-inc.com/throat/download/throat-4.1.0.tgz#89037cbc92c56ab18926e6ba4cbb200e15672a6a"
   integrity sha1-iQN8vJLFarGJJua6TLsgDhVnKmo=
 
-through2@^2.0.3:
+through2@^2.0.1, through2@^2.0.2, through2@^2.0.3:
   version "2.0.5"
   resolved "http://registry.npm.souche-inc.com/through2/download/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
   integrity sha1-AcHjnrMdB8t9A6lqcIIyYLIxMs0=
@@ -5659,7 +7176,7 @@ through2@^2.0.3:
     readable-stream "~2.3.6"
     xtend "~4.0.1"
 
-through@2, through@~2.3, through@~2.3.1:
+through@2, through@^2.3.6, through@~2.3, through@~2.3.1:
   version "2.3.8"
   resolved "http://registry.npm.souche-inc.com/through/download/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
@@ -5676,6 +7193,13 @@ title-case@^2.1.0:
   dependencies:
     no-case "^2.2.0"
     upper-case "^1.0.3"
+
+tmp@^0.0.33:
+  version "0.0.33"
+  resolved "http://registry.npm.souche-inc.com/tmp/download/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
+  integrity sha1-bTQzWIl2jSGyvNoKonfO07G/rfk=
+  dependencies:
+    os-tmpdir "~1.0.2"
 
 to-fast-properties@^1.0.3:
   version "1.0.3"
@@ -5702,6 +7226,13 @@ to-regex-range@^2.1.0:
     is-number "^3.0.0"
     repeat-string "^1.6.1"
 
+to-regex-range@^5.0.1:
+  version "5.0.1"
+  resolved "http://registry.npm.souche-inc.com/to-regex-range/download/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  integrity sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=
+  dependencies:
+    is-number "^7.0.0"
+
 to-regex@^3.0.1, to-regex@^3.0.2:
   version "3.0.2"
   resolved "http://registry.npm.souche-inc.com/to-regex/download/to-regex-3.0.2.tgz#13cfdd9b336552f30b51f33a8ae1b42a7a7599ce"
@@ -5716,6 +7247,11 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.souche-inc.com/toidentifier/download/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha1-fhvjRw8ed5SLxD2Uo8j013UrpVM=
+
+toposort-class@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.souche-inc.com/toposort-class/download/toposort-class-1.0.1.tgz#7ffd1f78c8be28c3ba45cd4e1a3f5ee193bd9988"
+  integrity sha1-f/0feMi+KMO6Rc1OGj9e4ZO9mYg=
 
 traverse@^0.6.6:
   version "0.6.6"
@@ -5741,7 +7277,17 @@ ts-node@^7, ts-node@^7.0.0, ts-node@^7.0.1:
     source-map-support "^0.5.6"
     yn "^2.0.0"
 
-tslib@^1.9.3:
+tsconfig-paths@^3.9.0:
+  version "3.9.0"
+  resolved "http://registry.npm.souche-inc.com/tsconfig-paths/download/tsconfig-paths-3.9.0.tgz#098547a6c4448807e8fcb8eae081064ee9a3c90b"
+  integrity sha1-CYVHpsREiAfo/Ljq4IEGTumjyQs=
+  dependencies:
+    "@types/json5" "^0.0.29"
+    json5 "^1.0.1"
+    minimist "^1.2.0"
+    strip-bom "^3.0.0"
+
+tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.13.0"
   resolved "http://registry.npm.souche-inc.com/tslib/download/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha1-yIHhPMcBWJTtkUhi0nZDb6mkcEM=
@@ -5751,12 +7297,29 @@ tsscmp@1.0.6:
   resolved "http://registry.npm.souche-inc.com/tsscmp/download/tsscmp-1.0.6.tgz#85b99583ac3589ec4bfef825b5000aa911d605eb"
   integrity sha1-hbmVg6w1iexL/vgltQAKqRHWBes=
 
+tsutils@^3.17.1:
+  version "3.17.1"
+  resolved "http://registry.npm.souche-inc.com/tsutils/download/tsutils-3.17.1.tgz#ed719917f11ca0dee586272b2ac49e015a2dd759"
+  integrity sha1-7XGZF/EcoN7lhicrKsSeAVot11k=
+  dependencies:
+    tslib "^1.8.1"
+
 type-check@~0.3.2:
   version "0.3.2"
   resolved "http://registry.npm.souche-inc.com/type-check/download/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
   integrity sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
   dependencies:
     prelude-ls "~1.1.2"
+
+type-fest@^0.11.0:
+  version "0.11.0"
+  resolved "http://registry.npm.souche-inc.com/type-fest/download/type-fest-0.11.0.tgz#97abf0872310fed88a5c466b25681576145e33f1"
+  integrity sha1-l6vwhyMQ/tiKXEZrJWgVdhReM/E=
+
+type-fest@^0.8.1:
+  version "0.8.1"
+  resolved "http://registry.npm.souche-inc.com/type-fest/download/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
+  integrity sha1-CeJJ696FHTseSNJ8EFREZn8XuD0=
 
 type-is@^1.6.15, type-is@^1.6.16:
   version "1.6.18"
@@ -5849,6 +7412,13 @@ upper-case@^1.0.3, upper-case@^1.1.0, upper-case@^1.1.1, upper-case@^1.1.3:
   resolved "http://registry.npm.souche-inc.com/upper-case/download/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
   integrity sha1-9rRQHC7EzdJrp4vnIilh3ndiFZg=
 
+uri-js@^4.2.2:
+  version "4.2.2"
+  resolved "http://registry.npm.souche-inc.com/uri-js/download/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
+  integrity sha1-lMVA4f93KVbiKZUHwBCupsiDjrA=
+  dependencies:
+    punycode "^2.1.0"
+
 urijs@^1.19.0:
   version "1.19.2"
   resolved "http://registry.npm.souche-inc.com/urijs/download/urijs-1.19.2.tgz#f9be09f00c4c5134b7cb3cf475c1dd394526265a"
@@ -5859,7 +7429,7 @@ urix@^0.1.0:
   resolved "http://registry.npm.souche-inc.com/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-urllib@^2.24.0, urllib@^2.25.1, urllib@^2.33.0:
+urllib@^2.24.0, urllib@^2.25.1, urllib@^2.33.0, urllib@^2.33.3:
   version "2.36.1"
   resolved "http://registry.npm.souche-inc.com/urllib/download/urllib-2.36.1.tgz#fbd9fb13bbc140e1fc15bcdba8703d6142a7eb3a"
   integrity sha1-+9n7E7vBQOH8FbzbqHA9YUKn6zo=
@@ -5908,10 +7478,15 @@ utility@^1.12.0, utility@^1.13.1, utility@^1.14.0, utility@^1.15.0, utility@^1.1
     mz "^2.7.0"
     unescape "^1.0.1"
 
-uuid@^3.0.1, uuid@^3.3.2:
+uuid@^3.0.1, uuid@^3.3.2, uuid@^3.3.3:
   version "3.4.0"
   resolved "http://registry.npm.souche-inc.com/uuid/download/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha1-sj5DWK+oogL+ehAK8fX4g/AgB+4=
+
+v8-compile-cache@^2.0.3:
+  version "2.1.1"
+  resolved "http://registry.npm.souche-inc.com/v8-compile-cache/download/v8-compile-cache-2.1.1.tgz#54bc3cdd43317bca91e35dcaf305b1a7237de745"
+  integrity sha1-VLw83UMxe8qR413K8wWxpyN950U=
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
@@ -5920,6 +7495,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+validator@^10.11.0:
+  version "10.11.0"
+  resolved "http://registry.npm.souche-inc.com/validator/download/validator-10.11.0.tgz#003108ea6e9a9874d31ccc9e5006856ccd76b228"
+  integrity sha1-ADEI6m6amHTTHMyeUAaFbM12sig=
 
 vary@^1.1.2:
   version "1.1.2"
@@ -5957,6 +7537,13 @@ win-release@^1.0.0:
   dependencies:
     semver "^5.0.1"
 
+wkx@^0.4.8:
+  version "0.4.8"
+  resolved "http://registry.npm.souche-inc.com/wkx/download/wkx-0.4.8.tgz#a092cf088d112683fdc7182fd31493b2c5820003"
+  integrity sha1-oJLPCI0RJoP9xxgv0xSTssWCAAM=
+  dependencies:
+    "@types/node" "*"
+
 word-wrap@~1.2.3:
   version "1.2.3"
   resolved "http://registry.npm.souche-inc.com/word-wrap/download/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
@@ -5992,6 +7579,13 @@ write-file-atomic@^2.4.2:
     graceful-fs "^4.1.11"
     imurmurhash "^0.1.4"
     signal-exit "^3.0.2"
+
+write@1.0.3:
+  version "1.0.3"
+  resolved "http://registry.npm.souche-inc.com/write/download/write-1.0.3.tgz#0800e14523b923a387e415123c865616aae0f5c3"
+  integrity sha1-CADhRSO5I6OH5BUSPIZWFqrg9cM=
+  dependencies:
+    mkdirp "^0.5.1"
 
 wt@^1.2.0:
   version "1.2.0"
@@ -6151,3 +7745,12 @@ ypkgfiles@^1.6.0:
     is-type-of "^1.0.0"
     resolve-files "^1.0.0"
     yargs "^7.0.1"
+
+zlogger@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.npm.souche-inc.com/zlogger/download/zlogger-1.1.0.tgz#bc0d4a1a50d88b4e027636060c7a23682754744e"
+  integrity sha1-vA1KGlDYi04CdjYGDHojaCdUdE4=
+  dependencies:
+    pumpify "^1.3.5"
+    split2 "^2.1.0"
+    through2 "^2.0.1"
